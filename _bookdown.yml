@@ -1,0 +1,9 @@
+site: "bookdown::bookdown_site"
+book_filename: "application"
+edit: https://github.com/vincenzocoia/ubc-stat-EL-application/edit/master/%s
+new_session: yes
+language:
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+output_dir: "application"

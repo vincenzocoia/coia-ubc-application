@@ -1,1 +1,21 @@
 # Statement of vision for education in statistics and data science
+
+- what "educational leadership" (EL) means to you and what EL you might pursue in the future. Vision for long-term career growth towards Prof of Teaching, even if it's tentative.
+	- Existing examples:
+		- Curriculum development of 551 throughout the years; 561 w/ Gaby and Sunny, later Tom; 531; 511?; 563; BAIT 509; 562; STAT 545A/547M.
+		- Arrangement of (mostly) statistical concepts as they relate to data science on a whole-program level. 
+	- Promise: distplyr?
+	- Promise: Promotion of distributional forecasting methods.
+	- Promise: Host conference
+	- teaching, mentorship and inspiration of colleagues: post-docs, Sunny, TA's for guest lecture.
+	- Making resources public: 551, 545A/547M (expanded from Jenny's work).
+
+<!-- EL = an activity taken at UBC and elsewhere to advance innovation in teaching and learning with impact beyond one’s classroom -->
+
+- Service to the academic profession, to the University, and to the community: 
+	- BGC project (important to stay relevant with pressing issues, and to bring industry experience to the program)
+	- MDS vision statement
+	- Blog post?
+	- ASDa workshops in 2017.
+
+Responsible use

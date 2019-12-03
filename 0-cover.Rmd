@@ -1,12 +1,18 @@
 # Cover Letter
 
+I am writing to apply for a tenure-track instructor position in Statistics (Job #35876)
+
 hyperlinks to one or two examples of my teaching materials. Note that I don't see any of these as being "finished", but rather a work-in-progress.
 
 - For STAT 545A/547M (Exploratory Data Analysis), I made the [lecture notes](https://stat545guidebook.netlify.com/) and [course website](https://stat545.stat.ubc.ca/). Less relevant are Lectures 11+, taught by Dr. Firas Moosvi, and Lecture 6, a guest lecture taught by my TA, Victor Yuan.
 - For DSCI 551 (Probability for Data Science), I wrote the [lecture notes](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/) by using Dr. Mike Gelbart's notes from the previous year as scaffolding.
 - I'm writing an open-source book on regression analysis for data science, called [Interpreting Regression](https://interpreting-regression.netlify.com/). It's in its early stages.
 
+What I'm comfortable teaching (useful in parallel to the minor program in DS)
 
+Tools; my comfort level with CS. Although I don't have formal training in CS outside of perhaps a few undergraduate courses, my approach to learning these things is to identify tools and techniques that would be useful, and commit to building these tools. I prefer this approach over prescribed training such as online courses, because I find it more genuine as I encounter concepts as they become relevant. For example, I've been learning web hosting as I've been learning about Hugo, blogdown, and netlify to create websites like my homepage, course websites like STAT 545A/547M, and hosting "books" such as Interpreting Regression online. I've learned shell scripting back in my PhD, and continue to learn more, as I embrace GNU Make and workflow automation in general. 
+
+Teaching tools and methods
 
 the names of three references who have been asked to send reference letters:
 

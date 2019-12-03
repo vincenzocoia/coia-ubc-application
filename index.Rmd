@@ -13,6 +13,7 @@ description: "Job #35876"
 
 # Cover Letter
 
+**NOTE: THIS APPLICATION IS A WORK-IN-PROGRESS**
 
 Dear members of the search committee,
 
@@ -36,7 +37,7 @@ I've been developing this way of thinking with MDS, but am nowhere near complete
 
 On a smaller scale, I find that distributional thinking needs improvement. To this extent, I am developing an R package that works with distributions as objects, as opposed to handling the unwieldly pieces of functions like `dnorm()` and `rnbinom()`. My goal is to submit this package to CRAN and ROpenSci, and perhaps grab the attention of RStudio and the `tidymodels` team. Furthermore, I believe that copulas are currently not accessible enough due to complicated formulas and jargon, yet are tremendously useful for distributional forecasting. I hope to make this framework more accessible by developing an R package called `coperate` and `cmc` for easy manipulation of copulas, and easily created copula-based models (respectively). Again, submitted to CRAN and ROpenSci. 
 
-3. __Development__: turning new research into programs and tools that are ideally accessible to the public.
+3. __Development__: turning new research into programs and tools, which are ideally accessible to the public.
 4. __Teaching__: spreading data literacy and enthusiasm to the public.
 
 

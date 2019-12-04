@@ -50,11 +50,7 @@ In fact, there is an overarching issue of dads not being regarded as equally imp
 
 Since this hasn't been socially recognized as an issue yet, in mentioning it, I risk sounding androcentric. This cannot be further from the truth. I recognize that women are far more marginalized than men are, and I fully embrace empowerment of women. Groups like R Ladies need support; I'm proud of the fact that we pay close attention to the amount of women we accept in the MDS program; and I'm no stranger to calling out 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What happened yesterday should serve as a reminder that, more than ever, we need women in politics. Some people clearly want to chase women out of politics, but that&#39;s not going to make anything better. This isn&#39;t going to chase me out — it&#39;s going to make me work even harder. <a href="https://t.co/HJ0qyoiFhm">pic.twitter.com/HJ0qyoiFhm</a></p>&mdash; Catherine McKenna 🇨🇦 (@cathmckenna) <a href="https://twitter.com/cathmckenna/status/1187773205437702145?ref_src=twsrc%5Etfw">October 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Unlocking the code: teaching girls in Afghanistan coding.&quot; Something to smile about! <a href="https://t.co/rEjBCwgXma">https://t.co/rEjBCwgXma</a> via <a href="https://twitter.com/PositiveNewsUK?ref_src=twsrc%5Etfw">@positivenewsuk</a> <a href="https://twitter.com/hashtag/WomenInSTEM?src=hash&amp;ref_src=twsrc%5Etfw">#WomenInSTEM</a></p>&mdash; Vincenzo Coia (@VincenzoCoia) <a href="https://twitter.com/VincenzoCoia/status/977071564872065029?ref_src=twsrc%5Etfw">March 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Even though men are usually the priveledged
+en though men are usually the priveledged
 
 ## Contribution
 
@@ -84,3 +80,6 @@ Means pointing out when non-inclusive language or behaviour is used, whether int
 - Contributing my [LGBTSTEM interview](https://lgbtstem.wordpress.com/2019/11/09/an-interview-with-vincenzo-coia/).
 
 As a result of this, I'm hoping that others can feel safer around me, and that I inspire others to have pride in who they are as well. I also hope that it brings awareness to those who are not familiar with LGBTQ+ issues -- for example, the more someone sees preferred personal pronouns being specified, the more likely they are to look up why more and more people are posting this and what this means.
+
+
+[ ] sensitivity to marginalized groups; embracing diversity.

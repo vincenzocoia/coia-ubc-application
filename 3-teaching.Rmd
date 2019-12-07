@@ -7,7 +7,7 @@
 <!-- I imagine this section to be on how I go about teaching -->
 
 
-My teaching takes to heart what I learned from Greg Wilson, that teaching is much more about motivating students than it is knowledge transfer. Students have access to any information they want through the internet, but a classroom environment has the powerful advantage of the presence of peers and a knowledgeable instructor. I'm pleased to that I consistently get feedback from students and peers that my enthusiasm is contagious in the classroom. I do love the material I teach.
+My teaching takes to heart what I learned from Greg Wilson, that teaching is much more about motivating students than it is knowledge transfer. Students have access to any information they want through the internet, but a classroom environment has the powerful advantage of the presence of peers and a knowledgeable instructor. I'm pleased to that I consistently get feedback from students and peers that my enthusiasm is contagious in the classroom. I do love the material I teach. 
 
 __Structured teaching__. [ ] Learning objectives to guide content creation, lab creation, and quiz creation.
 [ ] Clearly defining expectations, and clearly and constantly reminding everyone what we've talked about and why regarding the big structure of the course.

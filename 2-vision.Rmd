@@ -51,10 +51,16 @@ Envisioned impact outside the walls of the classroom by the time I become a Prof
 	- coperate for easily understanding and handling copulas.
 - Writing public resources:
 	- Book "Interpreting Regression" for reframing statistics for data science.
-	- Possibly another book on distributional forecasting.
+	- Possibly another book, on distributional forecasting.
 	- Vignettes and journal articles about the use of said R packages.
 	- Course materials made public.
 	- Data science "cheat sheets", especially when it comes to a guide for making decision about model assumptions.
+
+__Problem-first organization__. I believe in quality over quantity, and this is especially important for a program as time-sensitive as the Master of Data Science program at UBC that I currently teach in. Here, I focus on fundamental concepts, asking the question "what must the students absolutely know by the end of this course?" To help answer this, I look to fundamental concepts _as they relate to applications_, not necessarily how they are developed in academia. I stick to these core concepts, and show students just how far they can go by exploring deeper concepts and data science methods -- again, going back to motivation over knowledge transfer.
+	- [ ] problem-first approach when teaching data science
+	- [ ] Bringing in examples from Capstone for motivation
+	- Capstone. I believe that teaching is far less effective when done "in a vacuum", as opposed to collaboratively with the input and feedback from peers. I'm lucky to be involved with open and communicative colleagues who can share their input, to build world-class courses in data science. And I'm happy to be on the other end as well, providing input and feedback to my colleagues.
+
 
 ## Skills and Evidence
 

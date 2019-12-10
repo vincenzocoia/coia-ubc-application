@@ -1,7 +1,7 @@
 --- 
 title: "Application for Tenure-Track Instructor Position in Statistics at UBC"
 author: "Vincenzo Coia"
-date: "2019-12-07"
+date: "2019-12-09"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

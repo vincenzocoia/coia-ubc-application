@@ -13,6 +13,16 @@
 <!-- Asset: Experience with evidence-based teaching methods, curriculum development, course design, and other initiatives that advance the university’s ability to excel in its teaching and learning mandate.  -->
 
 
+STATUS:
+
+- [x] Brain dump of ideas
+- [x] Organization of ideas
+- [x] Filling in gaps
+- [ ] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
+
 My vision for EL involves:
 
 - reframing the map of statistics from the perspective of data science to provide a framework for solving real-world problems

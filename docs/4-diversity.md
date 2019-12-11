@@ -1,5 +1,14 @@
 # Diversity Statement
 
+STATUS:
+
+- [ ] Brain dump of ideas
+- [ ] Organization of ideas
+- [ ] Filling in gaps
+- [ ] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
 To me, people deserve the same respect regardless of their identity. Any differential treatment is discrimination, and is problematic because it leaves people feeling disrespected, or worse, puts an impediment on one's life. 
 
 Our society has made some great progress on inclusivity (the opposite of discrimination). Racial and sexual discrimination are significantly less these days compared to several decades ago. But the battle is still not over, as is evidenced by graffitied rainbow sidewalks and defaced mosques. 
@@ -15,6 +24,8 @@ The problem goes deeper and more elusive with the well-intentioned people who st
 The problem does not necessarily lie with a discriminative response from an individual, if the response was unintentional. Despite the best of intentions, it's our environment and society that is responsible for crafting an automatic response from an individual. So, a good-intentioned individual that does a double-take after seeing me and my male partner holding hands should not beat themselves up over it -- it just means that the cumulative effect of their environment over time crafted such a response.
 
 In the classroom, ensuring students all feel welcome, and feel that they can come talk to me, or participate in class. Fairness. Being mindful about whether I may be paying less attention to certain groups, for example, on Slack. I was once accused of spending less energy on non-native English speakers on Slack. Although it's hard for us to recognize unconscious discrimination, I'm not convinced their claim was true -- but regardless, this experience taught me that I need to be more deliberate about how I respond to students. I like to think, "how would I respond if this question or comment was made by someone else?". I think the usefulness of this litmus test extends beyond Slack to general interactions with students. 
+
+- Staying mindful of the potential of subconscious discrimination coming about by showing preference of some team members over others, whether it be race, gender, personality, skillset, etc. This means being deliberate about where I spend my attention.
 
 ## My experience with discrimination
 

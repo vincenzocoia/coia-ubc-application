@@ -1,7 +1,7 @@
 --- 
 title: "Application for Tenure-Track Instructor Position in Statistics at UBC"
 author: "Vincenzo Coia"
-date: "2019-12-09"
+date: "2019-12-10"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -14,6 +14,17 @@ description: "Job #35876"
 # Cover Letter
 
 **NOTE: THIS APPLICATION IS A WORK-IN-PROGRESS**
+
+Cover letter STATUS:
+
+- [ ] Brain dump of ideas
+- [ ] Organization of ideas
+- [ ] Filling in gaps
+- [ ] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
+<!-- Note to self: Make this like the "trailhead" of the Explore magazine -->
 
 Dear members of the search committee,
 
@@ -48,6 +59,8 @@ What I'm comfortable teaching (useful in parallel to the minor program in DS)
 Tools; my comfort level with CS. Although I don't have formal training in CS outside of perhaps a few undergraduate courses, my approach to learning these things is to identify tools and techniques that would be useful, and commit to building these tools. I prefer this approach over prescribed training such as online courses, because I find it more genuine as I encounter concepts as they become relevant. For example, I've been learning web hosting as I've been learning about Hugo, blogdown, and netlify to create websites like my homepage, course websites like STAT 545A/547M, and hosting "books" such as Interpreting Regression online. I've learned shell scripting back in my PhD, and continue to learn more, as I embrace GNU Make and workflow automation in general. 
 
 Teaching tools and methods
+
+In this application, I'll show you how my career goals are related to teaching and educational leadership. You'll read about my plans to continue reframing statistics for the purpose of data science by writing books such as interpreting regression and writing software such as dist fire.
 
 the names of three references who have been asked to send reference letters:
 

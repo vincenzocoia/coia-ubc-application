@@ -15,6 +15,15 @@ description: "Job #35876"
 
 **NOTE: THIS APPLICATION IS A WORK-IN-PROGRESS**
 
+Cover letter STATUS:
+
+- [ ] Brain dump of ideas
+- [ ] Organization of ideas
+- [ ] Filling in gaps
+- [ ] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
 <!-- Note to self: Make this like the "trailhead" of the Explore magazine -->
 
 Dear members of the search committee,

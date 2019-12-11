@@ -3,10 +3,22 @@
 ## Teaching Philosophy
 
 <!-- must provide evidence for excellence in, and commitment to, undergraduate teaching;  -->
+<!-- must provide evidence for potential for creating innovative instructional environments.  -->
 
 <!-- I imagine this section to be on how I go about teaching -->
 
-My philosophy on teaching can best be broken down into four categories: __appropriate structure__, __responsive teaching__, __motivation__, and __self-improvement__.
+
+STATUS:
+
+- [x] Brain dump of ideas
+- [x] Organization of ideas
+- [x] Filling in gaps
+- [x] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
+
+My philosophy on teaching can best be broken down into four categories: __appropriate course structure__, __responsive teaching__, __motivation__, and __self-improvement__.
 
 ### Appropriate Structure
 
@@ -51,13 +63,33 @@ Realizing one's own struggles is also critical for self-improvement. For now, on
 
 <!-- must provide evidence for ability to work collaboratively as well as independently, and to supervise the work of others -->
 
-- Respecting people's time: giving subordinates the option of meeting electronically if they choose.
-- Making clear everyone's role in a team project (example: 561 project, capstone projects)
-- and getting a sense of the amount of time/involvement each person will be contributing.
-- Delegation levels, and being open to letting go (sometimes it's difficult because we want to take ownership)
-	- Also, I believe that we don't delegate enough. As a result, we end up sacrificing valuable time where instead we could be really moving the needle in our program.
-- Staying mindful of the potential of subconscious discrimination coming about by showing preference of some team members over others, whether it be race, gender, personality, skillset, etc. This means being deliberate about where I spend my attention.
-- Feedback: taking the time to provide feedback for one's work. I believe this shows respect for the other person, that they are worth my time, and provides an impetus for them to improve. Example: 561 labs 3 and 4 with Tom; detailed feedback on pieces of writing submitted by students (capstone).
-- I try to be genuine so that they can see that I'm also a human that makes mistakes and has gaps in my skillset, and lead a regular life outside of UBC. I think this also helps develop a stream of open communication for questions, concerns, and how things are going. Creating a culture that's safe for dissent, because my subordinates have skills, knowledge, and a viewpoint that I don't have, and from which I can learn from them.
-- One thing I need to improve upon for this coming capstone, as reflected in my evaluations, is to be more mindful of group dynamics. Even if things between me and each team member/student are fine, relationships between other team members/students might not be. This year, I'll be meeting with each student individually to see how things are going.
+<!-- Note to self: I think the work I mention elsewhere in my application acts as evidence for the ability to work independently -->
+
+
+STATUS:
+
+- [x] Brain dump of ideas
+- [x] Organization of ideas
+- [ ] Filling in gaps
+- [ ] Smooth over to form a draft
+- [ ] Complete: no changes needed.
+
+
+**speach-to-text while doing housework -- needs cleaning, will sound weird**
+
+Examples of group leadership include the development and delivery of courses with colleagues and teaching assistants, and the delivery of capstone projects together with partner organizations and student groups with MDS. I believe effective group leadership involves establishing everyone's roles, expectations, and time commitments; creating an empowering work culture for all group members; and defining success. When training is involved, delegation and feedback are key to promote the subordinate's growth.
+
+Making everyone's roll clear is the beginning step in defining a framework for which the group can operate effectively. Doing so allows everyone to respect each other's time and boundaries, so that group members know how to interact with each other. For example, while leading the redevelopment team for DSCI 561 last summer, I established that our graduate assistant would be the one taking the lead with the actual writing of lab content, and as for the other colleagues who volunteered their time to take part in this redevelopment, we established a level of involvement and time commitment that they wanted, and how and when we should reach out to them in terms of communication. This gave the team the knowledge of how often we should engage with the other teammates as well as to what extent. Other examples are the MDS Capstone projects. During our kickoff meeting with the students and the partner organization, outlining the roles of each party gives the partner organization the knowledge that they are not expected to treat the students as if their employees, and informs students about who they should talk to for what and how often.
+
+When it comes to the actual nature of the interactions between group members and myself, I believe it's important to empower all group members to feel that they can make an impact. This means respecting each team member as an equally valuable contributor. We should they be viewed as equally valuable but they should be viewed as equal to myself,. By respecting the group and interacting with them as if they are equals this empowers them to take responsibility and ownership over the project and encourages them to express their ideas. It's also important to be careful about how you respond to other people's ideas or questions. It means considering all viewpoints as being good points or equally valuable even if they might seem or even if to me they might obviously be wrong or have an obvious answer. I also like to allow for a culture that safe for descent, which means if somebody disagrees with what I or someone else has to say they should feel safe to be able to express their viewpoint. Ultimately it's cheating this is really about talking to the group as if they're equals and being humble yourself and showing that you are just an ordinary human being like they are. Creating a culture of respect also involves doing things such as respecting people's time and allowing for the opportunity four teammates to meet with me electronically or in person if appropriate whatever they choose. It means not including people in meetings if they are not if their role is not relevant to the meeting. Ultimately it involves being genuine the genuine human being who also has gaps in my skill-set it's important to recognize that ethan subordinates have a different set of skills than the leader does and by treating everyone as equal it gives those unique skill-set city to come about and diverse skill-set in order to create an outcome that is ultimately much better than what the leader could have produced on their own even if given ample time to complete the project. - I try to be genuine so that they can see that I'm also a human that makes mistakes and has gaps in my skillset, and lead a regular life outside of UBC. I think this also helps develop a stream of open communication for questions, concerns, and how things are going. Creating a culture that's safe for dissent, because my subordinates have skills, knowledge, and a viewpoint that I don't have, and from which I can learn from them.
+
+When training is involved in the collaboration:
+
+When it comes to the actual learning that my subordinates do jurang be group work call Ma it's important to provided input both verbally and has written feedback. This involves taking the time to write detailed notes as to where they can improve or where they are doing where are they are exceeding expectations already. An example of this is my 561 feedback on Tom's proposed lab assignment, as well as detailed feedback on students capstone reports. It might feel time-consuming while but this is how they are actually going to learn. Another example is when one of my Tas delivers a guest lecture, I like to go for a walk with them outdoor and allow them to tell me how they think the lecture went. I mostly let them do the talking as was inspired by the instructional skills workshop at UBC, but I will also share my own insights and experiences based on what they share insights. - Feedback: taking the time to provide feedback for one's work. I believe this shows respect for the other person, that they are worth my time, and provides an impetus for them to improve. Example: 561 labs 3 and 4 with Tom; detailed feedback on pieces of writing submitted by students (capstone).
+
+I like to give my TA's the opportunity to deliver a guest lecture. I'll guide them beforehand, and have a "debrief" session, usually a walk outside (inspired from ISW).
+
+Another important aspect of Define the expectations is defining delegation levels. Longest same line this provides an opportunity for subordinates to learn from me. Example I like to give my teaching assistants the opportunity to teach up to one lecture four Courts that i t. This allows them the opportunity to develop skills that I possess and they do not necessarily, delegation is also a win for me, because it frees up a little bit of my time that I can then spend towards other meaning for activities, ultimately doing more by doing less. When delegating it's also important to let the delegate know how much power they have in decision-making for example are they able to make decisions on their own without consulting me or do I only want them to collects data so that I can make the decision more easily. Going back to the example of the 561 develop the graduate assistant that we hired, I gave her the opportunity to come up with ideas and passing by me before then issuing then what's the requirements to the structure of the knob design in questions, but when it came to deciding how to allocate marks I told her that I would be almost hands off because she has the experience having greatest lab assignments in the past, if anything she would have known better than me. Another example is during Capstone I allow the students who designed their meeting agenda with me. The difficult thing about delegation is you have to give up power in a sentence, because unless you let go of things that you would like to do because you think you know what that last. But I'm letting go you give the delegates the opportunity to grow and learn by stretching their usual boundaries. 
+
+Finally, As in teaching i'm also always looking for ways to improve my leadership in training skills. This involves knowledge of where one's weaknesses are. for me, as I learned from last year's Capstone project, I need to be more mindful of group dynamics. Even if things between me and each team member or student is fine the relay between other team members might not be. This year I'll be meeting with each student individually to see how things are going. Play this will solve the problem. - One thing I need to improve upon for this coming capstone, as reflected in my evaluations, is to be more mindful of group dynamics. Even if things between me and each team member/student are fine, relationships between other team members/students might not be. This year, I'll be meeting with each student individually to see how things are going.
 

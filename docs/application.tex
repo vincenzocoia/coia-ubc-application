@@ -1,5 +1,7 @@
-\documentclass[]{book}
+\documentclass[]{article}
 \usepackage{lmodern}
+\usepackage{setspace}
+\setstretch{1.5}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
@@ -21,11 +23,16 @@
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\usepackage[margin=2.0cm]{geometry}
 \usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 \hypersetup{unicode=true,
             pdftitle={Application for Tenure-Track Instructor Position in Statistics at UBC},
             pdfauthor={Vincenzo Coia},
-            pdfborder={0 0 0},
+            colorlinks=true,
+            linkcolor=Maroon,
+            citecolor=Blue,
+            urlcolor=Blue,
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
@@ -84,18 +91,19 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-12-10}
+    \date{2019-12-11}
 
 
 \begin{document}
 \maketitle
 
 {
-\setcounter{tocdepth}{1}
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{2}
 \tableofcontents
 }
 \hypertarget{cover-letter}{%
-\chapter{Cover Letter}\label{cover-letter}}
+\section{Cover Letter}\label{cover-letter}}
 
 \textbf{NOTE: THIS APPLICATION IS A WORK-IN-PROGRESS}
 
@@ -181,10 +189,10 @@ Enthusiastically yours,
 Dr.~Vincenzo Coia
 
 \hypertarget{curriculum-vitae}{%
-\chapter{Curriculum Vitae}\label{curriculum-vitae}}
+\section{Curriculum Vitae}\label{curriculum-vitae}}
 
 \hypertarget{work-experience}{%
-\section{Work Experience}\label{work-experience}}
+\subsection{Work Experience}\label{work-experience}}
 
 2017/01 - present\\
 \textbf{Lecturer of Data Science}\\
@@ -198,7 +206,7 @@ Vancouver, BC
 UBC and private
 
 \hypertarget{education}{%
-\section{Education}\label{education}}
+\subsection{Education}\label{education}}
 
 \textbf{PhD in Statistics}\\
 2012/09 - 2017/02\\
@@ -223,7 +231,7 @@ Brock University\\
 Conferred ``With First-Class Standing'' on June 7, 2011
 
 \hypertarget{volunteer-positions}{%
-\subsection{Volunteer Positions}\label{volunteer-positions}}
+\subsubsection{Volunteer Positions}\label{volunteer-positions}}
 
 2016/09 - 2016/02\\
 \textbf{Science World at TELUS World of Science }\\
@@ -246,7 +254,7 @@ Niagara Falls, ON\\
 15.0 hours
 
 \hypertarget{research-assistantships}{%
-\subsection{Research Assistantships}\label{research-assistantships}}
+\subsubsection{Research Assistantships}\label{research-assistantships}}
 
 2013/05 - 2013/08\\
 \textbf{Robust penalized regression}\\
@@ -272,7 +280,7 @@ Brock University\\
 St.~Catharines, ON
 
 \hypertarget{teaching-assistantships}{%
-\subsection{Teaching Assistantships}\label{teaching-assistantships}}
+\subsubsection{Teaching Assistantships}\label{teaching-assistantships}}
 
 \textbf{Duration}: From the latter part of my undergrad, to the end of my PhD.
 
@@ -301,10 +309,10 @@ Brock University:
 \end{itemize}
 
 \hypertarget{publications-and-talks}{%
-\section{Publications and Talks}\label{publications-and-talks}}
+\subsection{Publications and Talks}\label{publications-and-talks}}
 
 \hypertarget{articles-submitted-to-refereed-journals}{%
-\subsection{Articles Submitted to Refereed Journals}\label{articles-submitted-to-refereed-journals}}
+\subsubsection{Articles Submitted to Refereed Journals}\label{articles-submitted-to-refereed-journals}}
 
 \begin{itemize}
 \item
@@ -322,7 +330,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{articles-submitted-to-conference-proceedings}{%
-\subsection{Articles Submitted to Conference Proceedings}\label{articles-submitted-to-conference-proceedings}}
+\subsubsection{Articles Submitted to Conference Proceedings}\label{articles-submitted-to-conference-proceedings}}
 
 \begin{itemize}
 \tightlist
@@ -339,7 +347,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{conference-and-roundtable-contributions}{%
-\subsection{Conference and Roundtable Contributions}\label{conference-and-roundtable-contributions}}
+\subsubsection{Conference and Roundtable Contributions}\label{conference-and-roundtable-contributions}}
 
 \begin{itemize}
 \item
@@ -373,10 +381,10 @@ Brock University:
 \end{itemize}
 
 \hypertarget{awards}{%
-\section{Awards}\label{awards}}
+\subsection{Awards}\label{awards}}
 
 \hypertarget{university-issued}{%
-\subsection{University Issued}\label{university-issued}}
+\subsubsection{University Issued}\label{university-issued}}
 
 \begin{itemize}
 \tightlist
@@ -395,7 +403,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{nationally-recognized}{%
-\subsection{Nationally Recognized}\label{nationally-recognized}}
+\subsubsection{Nationally Recognized}\label{nationally-recognized}}
 
 \begin{itemize}
 \tightlist
@@ -410,7 +418,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{individual-donors}{%
-\subsection{Individual Donors}\label{individual-donors}}
+\subsubsection{Individual Donors}\label{individual-donors}}
 
 \begin{itemize}
 \tightlist
@@ -435,7 +443,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{athletic-awards}{%
-\subsection{Athletic Awards}\label{athletic-awards}}
+\subsubsection{Athletic Awards}\label{athletic-awards}}
 
 \begin{itemize}
 \tightlist
@@ -454,7 +462,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{declined-awards}{%
-\subsection{Declined Awards}\label{declined-awards}}
+\subsubsection{Declined Awards}\label{declined-awards}}
 
 \begin{itemize}
 \tightlist
@@ -465,7 +473,7 @@ Brock University:
 \end{itemize}
 
 \hypertarget{professional-activities}{%
-\section{Professional Activities}\label{professional-activities}}
+\subsection{Professional Activities}\label{professional-activities}}
 
 Dept. of Statistics, The University of British Columbia:
 
@@ -486,7 +494,7 @@ Dept. of Statistics, The University of British Columbia:
 \end{itemize}
 
 \hypertarget{statement-of-vision-for-education-in-statistics-and-data-science}{%
-\chapter{Statement of vision for education in statistics and data science}\label{statement-of-vision-for-education-in-statistics-and-data-science}}
+\section{Statement of vision for education in statistics and data science}\label{statement-of-vision-for-education-in-statistics-and-data-science}}
 
 STATUS:
 
@@ -611,10 +619,10 @@ To summarize my envisioned educational leadership throughout my career, as I see
 ``Sharpening the saw'' by work with other organizations, and keeping up with the community.
 
 \hypertarget{statement-of-teaching-and-training-philosophy}{%
-\chapter{statement of teaching and training philosophy}\label{statement-of-teaching-and-training-philosophy}}
+\section{statement of teaching and training philosophy}\label{statement-of-teaching-and-training-philosophy}}
 
 \hypertarget{teaching-philosophy}{%
-\section{Teaching Philosophy}\label{teaching-philosophy}}
+\subsection{Teaching Philosophy}\label{teaching-philosophy}}
 
 STATUS:
 
@@ -635,14 +643,14 @@ STATUS:
 My philosophy on teaching can best be broken down into four categories: \textbf{appropriate course structure}, \textbf{responsive teaching}, \textbf{motivation}, and \textbf{self-improvement}.
 
 \hypertarget{appropriate-structure}{%
-\subsection{Appropriate Structure}\label{appropriate-structure}}
+\subsubsection{Appropriate Structure}\label{appropriate-structure}}
 
 You and I don't really know English. We only know enough for it to be a sufficiently useful tool for our own daily activities. I take this concept to heart as I design and deliver my courses. It's fallacious to design a course around \emph{topics}, but rather on building \emph{skills} for a certain purpose. To me, these skills formulated as a list of \textbf{learning objectives} (LO's) act as a ``true north'' that all components of a course point towards, and are the most important structure to the course. For example, course content on the topic ``heteroskedasticity'' could be developed in many directions. The students, thinking they have to ``know heteroskedasticity'', get stuck studying its never-ending scope. Instead, a learning objective such as ``modify a linear model to appropriately incorporate heteroskedasticity based on data diagnostics'' provides direction for the teaching team to create material, and clarity for the students. For concrete examples, take a look at \href{https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/}{the DSCI 551 notes}, or my other course materials.
 
 Clarity about the course structure and expectations is important for equipping students with a map of what they need to do to succeed. In addition to discussing how students should use the LO's, describing the summative assessments and a course syllabus is also important, as well as making it easy to navigate course material (see, for example, the \href{https://stat545.stat.ubc.ca/}{STAT 545A/547M syllabus website}). Informing the students of any changes or of any mistakes, no matter how painful, is also critical for maintaining clarity.
 
 \hypertarget{responsive-teaching}{%
-\subsection{Responsive teaching}\label{responsive-teaching}}
+\subsubsection{Responsive teaching}\label{responsive-teaching}}
 
 Too much structure can stymie a course. This is because, while preparing course material, the instructor is not truly equipped with the clarity of how to most appropriately deliver material until the material has been delivered. For example, a question for the class might have seemed insightful when it was being prepared, but maybe during class the question doesn't end up being insightful. Or, maybe the lecture delivery time was underestimated. The answer to addressing this issue is responsive teaching.
 
@@ -669,14 +677,14 @@ Some other methods for connecting with the students are:
 \end{itemize}
 
 \hypertarget{motivation}{%
-\subsection{Motivation}\label{motivation}}
+\subsubsection{Motivation}\label{motivation}}
 
 Neither structure nor responsive teaching will suffice if the students don't know the reason for discussing the course material.
 
 I take to heart what I learned from Greg Wilson, that teaching is much more about motivating students than it is knowledge transfer. Students have access to any information they want through the internet, but a classroom environment has the powerful advantage of the presence of peers and an engaging instructor. On the teaching front, this means being enthusiastic, and focussing on why they should care about the things I talk about. It also means being aware of the lengthy (usually 80-minute) time frame that students are present for (and that's just for one class), by taking a break mid-class, returning to the big-picture, and providing additional instructions for exercises for people who may have ``fallen off the bus''. I'm pleased that I regularly receive ample praise on my instructor evaluations, and I encourage you to take a look.
 
 \hypertarget{self-improvement}{%
-\subsection{Self-Improvement}\label{self-improvement}}
+\subsubsection{Self-Improvement}\label{self-improvement}}
 
 What's better than effective teaching? Teaching that continually becomes more effective.
 
@@ -687,7 +695,7 @@ An after-action review is another effective method, involving capturing the insi
 Realizing one's own struggles is also critical for self-improvement. For now, one thing I struggle with are student names. I feel embarrassed to use names because I'm sure to make mistakes, but calling students by their name is important because it shows that the instructor cares. I already review class lists, but have been stepping outside of my comfort zone by no longer avoiding using names. Another thing I struggle with is writing in an orderly fashion on the whiteboard. I use the whiteboard for spontaneity / responsive teaching, which means I don't know how I'll ultimately be using the board throughout the class. I end up running out of space, and end up using the board in a non-linear fashion, which can sometimes be confusing. For now, I intend to remain mindful of this and keep practicing.
 
 \hypertarget{training-philosophy}{%
-\section{Training Philosophy}\label{training-philosophy}}
+\subsection{Training Philosophy}\label{training-philosophy}}
 
 STATUS:
 
@@ -724,7 +732,7 @@ Another important aspect of Define the expectations is defining delegation level
 Finally, As in teaching i'm also always looking for ways to improve my leadership in training skills. This involves knowledge of where one's weaknesses are. for me, as I learned from last year's Capstone project, I need to be more mindful of group dynamics. Even if things between me and each team member or student is fine the relay between other team members might not be. This year I'll be meeting with each student individually to see how things are going. Play this will solve the problem. - One thing I need to improve upon for this coming capstone, as reflected in my evaluations, is to be more mindful of group dynamics. Even if things between me and each team member/student are fine, relationships between other team members/students might not be. This year, I'll be meeting with each student individually to see how things are going.
 
 \hypertarget{diversity-statement}{%
-\chapter{Diversity Statement}\label{diversity-statement}}
+\section{Diversity Statement}\label{diversity-statement}}
 
 STATUS:
 
@@ -763,7 +771,7 @@ In the classroom, ensuring students all feel welcome, and feel that they can com
 \end{itemize}
 
 \hypertarget{my-experience-with-discrimination}{%
-\section{My experience with discrimination}\label{my-experience-with-discrimination}}
+\subsection{My experience with discrimination}\label{my-experience-with-discrimination}}
 
 As a member of the LGBTQ+ community, I continue to experience discrimination. Me and my male partner holding hands in public still forms a spectacle to many, some even stopping to watch us after we've walked by. Wedding vendors still referring to a ``bride'' when mentioning our wedding. Being invited to a wedding under the condition that my partner and I show no affection.
 
@@ -809,12 +817,12 @@ Since this hasn't been socially recognized as an issue yet, in mentioning it, I 
 en though men are usually the priveledged
 
 \hypertarget{contribution}{%
-\section{Contribution}\label{contribution}}
+\subsection{Contribution}\label{contribution}}
 
 To me, contributing to inclusivity is about creating an inclusive environment, especially when it comes to making course content; calling out discrimination, even when the discrimination is unintentional; and being a role model for others by being comfortable about who I am.
 
 \hypertarget{creating-an-inclusive-environment}{%
-\subsection{Creating an inclusive environment}\label{creating-an-inclusive-environment}}
+\subsubsection{Creating an inclusive environment}\label{creating-an-inclusive-environment}}
 
 Involves:
 
@@ -833,7 +841,7 @@ Involves:
 \end{itemize}
 
 \hypertarget{calling-out-discrimination}{%
-\subsection{Calling out discrimination}\label{calling-out-discrimination}}
+\subsubsection{Calling out discrimination}\label{calling-out-discrimination}}
 
 Means pointing out when non-inclusive language or behaviour is used, whether intentionally or not. Critically, this should be done with compassion, as opposed to accusation, because (1) people may not know any better, and (2) even if they do know better, this language can accidentally slip due to many years of belonging to a less-inclusive environment. Calling out discrimination can help educate people of the first type, as well as help re-program people of the second type. Examples include:
 

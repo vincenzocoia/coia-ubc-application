@@ -125,7 +125,7 @@ Cover letter STATUS:
 
 Dear members of the search committee,
 
-I am writing to enthusiastically apply for a tenure-track instructor position in Statistics (\href{https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876}{Job \#35876}). Ever since joining the department of Statistics full time in early 2017 to advance our Data Science initiatives, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership stream.
+I am writing to enthusiastically apply for a tenure-track instructor position in Statistics (\href{https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876}{Job \#35876}). Ever since joining the department of Statistics full time in early 2017 to advance our Data Science initiatives, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership stream. An electronic version of my application can be found at \href{https://coia-ubc-application.netlify.com/}{coia-ubc-application.netlify.com}, and the content of this cover letter \href{}{here}.
 
 Ultimately, in this position, I envision advancing all branches of Data Science education at UBC, especially through Statistics for Data Science. I'm equally excited to develop the new Minor in Data Science program as I am to continue developing the Master of Data Science (MDS) program. In fact, I'm actually rather torn between the two: there is still much to develop with MDS, and I'm rather invested in the program; but the allure of developing a new Minor program is a new equally exciting challenge that I can make valuable contributions to. Regardless of my level of involvement in these, I intend to keep an open stream of communication between the two programs, along with STAT 545A/547M, so that data science education at UBC can overall grow as a cohesive whole, as opposed to competing pieces.
 
@@ -135,6 +135,7 @@ I've identified four pillars of my career, which I hope will lay the foundation 
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   \textbf{Application}: addressing real problems with data science.
 \item
@@ -186,7 +187,9 @@ I am eager to begin the position on the indicated July 1, 2020 start date, but a
 
 Enthusiastically yours,
 
-Dr.~Vincenzo Coia
+Vincenzo Coia, PhD
+
+\url{https://vincenzocoia.com/}
 
 \hypertarget{curriculum-vitae}{%
 \section{Curriculum Vitae}\label{curriculum-vitae}}
@@ -504,7 +507,7 @@ STATUS:
   Brain dump of ideas
 \item[$\boxtimes$]
   Organization of ideas
-\item[$\boxtimes$]
+\item[$\square$]
   Filling in gaps
 \item[$\square$]
   Smooth over to form a draft
@@ -517,16 +520,48 @@ My vision for EL involves:
 \begin{itemize}
 \tightlist
 \item
-  reframing the map of statistics from the perspective of data science to provide a framework for solving real-world problems
+  reframing Statistics from the perspective of data science from the perspective of solving real-world problems
 \item
   bringing to life underutilized tools and techniques.
 \item
   Stewardship of data science: defining data science and maintaining a vision for our organizations (minor program; MDS; STAT 545A/547M, etc), promoting responsible use of data science.
 \end{itemize}
 
-Why does the way in which we approach statistics for data science need reframing? In short, this is because Statistical Science focusses on describing consequences of a framework of stochastic assumptions (a ``framework-first'' approach), and Data Science focusses on addressing real-world problems using tools described by Statistical Science (a ``problem-first'' approach). The ability to solve real-world problems does not directly follow from Statistical Science, because real problems don't neatly satisfy assumptions. Instead, Statistics for Data Science involves a critical evaluation of assumptions in terms of their usefulness and their goodness of approximation -- this is more than ``assumption checking'', it's ``assumption building''. Even Applied Statistics may seem to take a problem-first approach, but the motivating real-world problem tends to be used as motivation for setting up a framework of assumptions, for which properties are then described (as usual).
+\hypertarget{statistics-for-data-science}{%
+\subsubsection{Statistics for Data Science}\label{statistics-for-data-science}}
 
-Reframing Statistics for Data Science involves modularizing \emph{scenarios} instead of \emph{methods}. Perhaps the best example of this is DSCI 562 (Regression II), which I re-developed last year. Instead of teaching ``GLM's'' and ``Survival Analysis'', I teach ``Regression when the range of the response is restricted'', or ``Regression when data are censored''. The idea behind this is that students can then handle combined scenarios, such as ``regression when the range of the response is restricted and data are censored'', because they've learned model \emph{modifications} in each topic, not just the isolated models themselves. This scenario-first approach naturally promotes motivation in the classroom, because the topics are designed to be practical. This is also a tremendous opportunity for me and UBC, because I'm finding a general lack of this type of focus. I'm hoping to be a leader in this area. Because I take a scenario-based approach, it's important to find motivating real-world problems to lead a powerful discussion. Where possible, I draw from my industry experience and capstone. For example, using the BCMEA example for DSCI 551, flood forecasting for DSCI 562, or determining the effect of blue-light-blocking glasses on sleep for DSCI 561. I've found that these examples spur lots of great discussion.
+Why does the way in which we approach statistics for data science need reframing? Statistical Science tends to begin with assumptions / a modelling framework, describing properties and methods that enable solutions to a problem. This is a ``framework-first'' approach. But Statistics for Data Science requires a ``problem-first'' approach, focussing on appropriately constructing a modelling framework from real-world problems. These skills are not translatable, because real problems don't neatly satisfy assumptions, and therefore their solution involves a critical evaluation as to how realistic and how useful assumptions are, as well as what output is suitable for the problem type. This isn't assumption-\emph{checking}, it's assumption-\emph{building}.
+
+By the way, even Applied Statistics might sometimes seem to take a problem-first approach, because it starts with a motivating problem. But the focus is still on describing properties of the newly defined framework. Statistics for Data Science must teach how to deal with a wide range of problems, using properties already given to us by Statistical Science.
+
+The way I see it, teaching a problem-first approach for Statistics for Data Science still has a long way to go. A central and powerful approach that I've been adopting is to create content focussing on the \emph{type of problem} instead of the traditional Statistics topics. Perhaps the best example of this is DSCI 562 (Regression II), which I re-developed last year. Instead of teaching ``Survival Analysis'' and ``Multiple Imputation'', I teach ``regression when data are censored'' and ``regression when data are missing''. This changes the focus of the lessons to be about evaluating possibilities for solving the type of problem, including evaluating the impact of ignoring the problem altogether (perhaps there's little to no impact!). This approach allows students to creatively come up with solutions to a variety of real world problems, which are sure to involve ``combined'' scenarios, such as a censored response with some missing data.
+
+Sometimes, a traditional statistical topic is made up of more than one type of problem, resulting in a restricted way of thinking. For example, the topic of Generalized Linear Models (GLM's) can be split into two problems: regression when the range of the response is restricted, and using a distributional assumption to improve estimation performance. Both are valuable tools that expand beyond the scope of GLM's, but if just taught as GLM's, restricts students' thinking to the smaller range of problems that GLM's can handle.
+
+Determining the type of problem that a traditional statistical topic addresses is not always obvious, but it's worth the time. I found the GLM example to be tricky; here are some other tricky ones, from DSCI 551 (Probability for Data Science):
+
+\begin{itemize}
+\tightlist
+\item
+  ``Probability Distributions'' has the underlying problem of communicating an uncertain outcome.
+\item
+  ``Simulation'' has the underlying problem of calculating probabilistic quantities (mean, probabilities, etc.) when the distributions or calculations are hard to come by.
+\item
+  ``Independence'' is tricky because it's not interesting in practice, but ``dependence'' \emph{is} interesting. Dependence, then, can have an underlying problem of garnering information from a dependent variable (or what I like to call ``harvesting dependence'').
+\end{itemize}
+
+This problem-first approach naturally promotes motivation in the classroom, because the topics are designed to be practical from the get-go. Sample real-world problems become important, and where possible, I draw from my capstone and industry experience to create compelling examples. Perhaps my favourite is the \href{https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/simulation.html\#multi-step-simulations-10-min}{``ships making demands at the port'' example in DSCI 551}, which I encountered in one of last year's capstone projects, to demonstrate simulation under a more complicated situation. Another favourite is flood forecasting; another, determining the effect of blue-light-blocking glasses on sleep.
+
+I'm finding that there's a general lack of problem-firsts education in Statistics, as well as a lack of good examples. I envision being a leader in this area. It's actually a major driver for my career, one where when I'm on my deathbed, I'd be proud to have impacted the world by making Statistics more accessible than it is.
+
+With a reframing of Statistics brings to light areas of Statistics that are useful, yet are not receiving much attention. These underutilized tools and techniques have already been described by statisticians, but their underuse perhaps stems from their misunderstanding / emphasis as only being required as assumptions, as well as our community's obsession with the mean.
+
+Lastly, an area that is crucial for EL, yet might not be called EL itself, is continuing to work with external partners, such as the Master of Data Science (MDS) capstone partners, to understand their pressing data issues, and lend a hand once in a while. As Stephen Covey says in ``The 7 Habits of Highly Effective People'', to be effective, one must ``sharpen the saw'' to keep yourself healthy -- except here, this is about remaining current and relevant. This is important for keeping myself and data science education at UBC relevant, as well as continually expanding my skillset. Besides having mentored MDS capstone projects for the past three years, I also did some work on flood forecasting with BGC Engineering this past summer, and plan to continue doing more. There are also simpler ways to sharpen the saw, including staying in touch with the data science community through Twitter, students and colleagues at UBC, newsletters such as ROpenSci and RStudio, as well as just plain looking for solutions to a new problem, or new solutions to an old problem.
+
+Stewardship for Data Science
+
+\hypertarget{educational-leadership}{%
+\subsubsection{Educational Leadership}\label{educational-leadership}}
 
 To reframe Statistics, I've been developing a book called ``Interpreting Regression'' that teaches a scenario-first approach, and intent to continue its development. When I've had the opportunity, I've been writing course notes to be recycled in this book. Some of the topics which I feel have a new perspective include:
 
@@ -540,7 +575,15 @@ To reframe Statistics, I've been developing a book called ``Interpreting Regress
   multiple imputation for missing data as plugging in a distribution to get marginal quantities. Without this being explained, students are left thinking ``I guess we should just use multiple imputation when faced with missing data, because that's just what we do''.
 \end{itemize}
 
-With a reframing of Statistics brings to light areas of Statistics that are useful, yet are not receiving much attention. These underutilized tools and techniques have already been described by statisticians, but their underuse perhaps stems from their misunderstanding / emphasis as only being required as assumptions, as well as our community's obsession with the mean. In addition to writing about these, I'm also developing software. Here are examples:
+Also, making course material public. I've already been doing this. Here is the activity from my most recent tweet of my most recent release (551):
+
+\begin{figure}
+\centering
+\includegraphics{./img/551_tweet.png}
+\caption{DSCI 551 tweet activity}
+\end{figure}
+
+In addition to writing about these (underused topics), I'm also developing software. Here are examples:
 
 \begin{itemize}
 \tightlist
@@ -567,14 +610,6 @@ I envision using the above three components for developing curricula at UBC, whe
 \item
   Curriculum development of 551 throughout the years; 561 w/ Gaby and Sunny, later Tom; 531; 511?; 563; BAIT 509; 562; STAT 545A/547M (expanded Jenny's work, but this needs more help, especially in the face of a changing data science landscape at UBC).
 \end{itemize}
-
-\begin{figure}
-\centering
-\includegraphics{./img/551_tweet.png}
-\caption{DSCI 551 tweet activity}
-\end{figure}
-
-Lastly, an area that is crucial for EL, yet might not be called EL itself, is continuing to work with external partners, such as the Master of Data Science (MDS) capstone partners, to understand their pressing data issues, and lend a hand once in a while. As Stephen Covey says in ``The 7 Habits of Highly Effective People'', to be effective, one must ``sharpen the saw'' to keep yourself healthy -- except here, this is about remaining current and relevant. This is important for keeping myself and data science education at UBC relevant, as well as continually expanding my skillset. Besides having mentored MDS capstone projects for the past three years, I also did some work on flood forecasting with BGC Engineering this past summer, and plan to continue doing more. There are also simpler ways to sharpen the saw, including staying in touch with the data science community through Twitter, students and colleagues at UBC, newsletters such as ROpenSci and RStudio, as well as just plain looking for solutions to a new problem, or new solutions to an old problem.
 
 To summarize my envisioned educational leadership throughout my career, as I see it now:
 

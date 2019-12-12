@@ -31,7 +31,7 @@ Cover letter STATUS:
 
 Dear members of the search committee,
 
-I am writing to enthusiastically apply for a tenure-track instructor position in Statistics ([Job #35876](https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876)). Ever since joining the department of Statistics full time in early 2017 to advance our Data Science initiatives, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership stream.
+I am writing to enthusiastically apply for a tenure-track instructor position in Statistics ([Job #35876](https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876)). Ever since joining the department of Statistics full time in early 2017 to advance our Data Science initiatives, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership stream. An electronic version of my application can be found at [coia-ubc-application.netlify.com](https://coia-ubc-application.netlify.com/), and the content of this cover letter [here]().
 
 Ultimately, in this position, I envision advancing all branches of Data Science education at UBC, especially through Statistics for Data Science. I'm equally excited to develop the new Minor in Data Science program as I am to continue developing the Master of Data Science (MDS) program. In fact, I'm actually rather torn between the two: there is still much to develop with MDS, and I'm rather invested in the program; but the allure of developing a new Minor program is a new equally exciting challenge that I can make valuable contributions to. Regardless of my level of involvement in these, I intend to keep an open stream of communication between the two programs, along with STAT 545A/547M, so that data science education at UBC can overall grow as a cohesive whole, as opposed to competing pieces. 
 
@@ -40,8 +40,6 @@ My vision for doing this
 I've identified four pillars of my career, which I hope will lay the foundation for my vision going forward in the teaching stream, as well as convey fit on my end. They are, in order of culmination:
 
 1. __Application__: addressing real problems with data science.
-
-
 2. __Research__: discovering better ways to do data science.
 3. __Development__: turning new research into programs and tools, which are ideally accessible to the public.
 4. __Teaching__: spreading data literacy and enthusiasm to the public.
@@ -75,4 +73,6 @@ I am eager to begin the position on the indicated July 1, 2020 start date, but a
 
 Enthusiastically yours,
 
-Dr. Vincenzo Coia
+Vincenzo Coia, PhD
+
+https://vincenzocoia.com/

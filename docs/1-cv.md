@@ -37,6 +37,12 @@ Concentration in Statistics
 Brock University    
 Conferred "With First-Class Standing" on June 7, 2011    
 
+### Courses Taught
+
+DSCI 511, Lecture Instructor, 2018/19
+
+prior to MDS, TA for many years.
+
 ### Volunteer Positions
 
 2016/09 - 2016/02    

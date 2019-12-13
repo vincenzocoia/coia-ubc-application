@@ -20,58 +20,54 @@ description: "Job #35876"
 
 Cover letter STATUS:
 
-- [ ] Brain dump of ideas
-- [ ] Organization of ideas
-- [ ] Filling in gaps
-- [ ] Smooth over to form a draft
+- [x] Brain dump of ideas
+- [x] Organization of ideas
+- [x] Filling in gaps
+- [x] Smooth over to form a draft
 - [ ] Complete: no changes needed.
-
-
-<!-- Note to self: Make this like the "trailhead" of the Explore magazine -->
 
 Dear members of the search committee,
 
-I am writing to enthusiastically apply for a tenure-track instructor position in Statistics ([Job #35876](https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876)). Ever since joining the department of Statistics full time in early 2017 to advance our Data Science initiatives, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership stream. An electronic version of my application can be found at [coia-ubc-application.netlify.com](https://coia-ubc-application.netlify.com/), and the content of this cover letter [here]().
+I am writing to enthusiastically apply for a tenure-track instructor position in Statistics ([Job #35876](https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876)). Ever since joining the department of Statistics full time in early 2017, largely to advance the Master of Data Science (MDS) program at UBC, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership (EL) stream. An electronic version of this application can be found at [coia-ubc-application.netlify.com](https://coia-ubc-application.netlify.com/).
 
-Ultimately, in this position, I envision advancing all branches of Data Science education at UBC, especially through Statistics for Data Science. I'm equally excited to develop the new Minor in Data Science program as I am to continue developing the Master of Data Science (MDS) program. In fact, I'm actually rather torn between the two: there is still much to develop with MDS, and I'm rather invested in the program; but the allure of developing a new Minor program is a new equally exciting challenge that I can make valuable contributions to. Regardless of my level of involvement in these, I intend to keep an open stream of communication between the two programs, along with STAT 545A/547M, so that data science education at UBC can overall grow as a cohesive whole, as opposed to competing pieces. 
+You'll first encounter a detailed Curriculum Vitae, where I list my career accomplishments such as the courses I've been involved with and my industry experience. This background has provided me with the necessary data science skills for the EL stream at UBC Statistics: ample use of advanced R and modern tools such as the tidyverse and tidymodels, including a working knowledge of python; other computational tools such as bash scripting, continuous integration, web hosting, and authoring tools such as various markdown flavours and LaTeX; data visualization skills through `ggplot2`, R `shiny`, `plotly`, and others; data formats such as csv, json, and xml; version control through git and collaboration through GitHub; and an advanced knowledge of Statistics, especially when it comes to the practicalities and the "why" of Statistics. I also have the leadership and teaching skills required to keep Data Science education thriving at UBC, as well as the beginnings of contributions (and promises for more) that I believe satisfy the definition of EL. 
 
-My vision for doing this 
+I hope this list of skills speaks for itself in the three statements that follow the CV:
 
-I've identified four pillars of my career, which I hope will lay the foundation for my vision going forward in the teaching stream, as well as convey fit on my end. They are, in order of culmination:
+- The "Statement of vision for education in statistics and data science" describes my take on Statistics for Data Science. There, I describe the importance and meaning of taking a "problem-first" approach, instead of the "framework-first" approach that should be reserved for Statistical Science. You'll also find my plans for EL, such as a book and software I'm writing.
+- The "Statement of teaching and training philosophy" describes my take on teaching in general, along with how I go about leading groups. There, you can find a discussion of things such as learning objectives being a "true north", and allowing for some spontaneity while teaching, as well as how I lead a group using clarity and equality.
+- The "Diversity Statement" explains my sensitivity to discrimination, and how simple things such as pride in who I am, along with calling out discrimination, can promote an inclusive and diverse culture. You just might also find stories about discrimination that I myself have experienced.
 
-1. __Application__: addressing real problems with data science.
-2. __Research__: discovering better ways to do data science.
-3. __Development__: turning new research into programs and tools, which are ideally accessible to the public.
-4. __Teaching__: spreading data literacy and enthusiasm to the public.
+I'm applying for the EL position because I want to take my current position one step further, where I can have a bigger impact on Data Science in general. Also, the allure of developing a new Minor program in Data Science is a new and exciting challenge that I can make valuable contributions to, because I know this program is going to be world-class. 
 
+I do admit, however, that I would be torn to leave MDS, because I'm invested in the many projects that are ongoing. But, I imagine a connection between MDS and the Minor program (as well as STAT 545A/547M, which I've been teaching since 2017), whereby all entities grow together through collaboration and discussions, ensuring that we support each other and provide a service to the community in our own unique ways. I will have been involved in all three data science entities at UBC, so am energized to lead collaboration efforts.
 
-Lastly, I'd like to elaborate on how my skills will be an asset to the department. 
+I'd like to reassure you that, although I've only ever officially taught _graduate_ level courses as opposed to undergraduate, I expect the transition to be smooth. Courses in the MDS program are structured like undergraduate courses, and it's not unusual for content to also be at the undergraduate level. Also, I've been involved in the teaching team of many undergraduate courses as a teaching assistant (TA).
 
-Excitement and promise for starting up the minor program, helping MDS and STAT 545A/547M evolve along with it.
+Here are a few links to examples of teaching material that I've created. Note that I don't see any of these as being "finished", but rather a work-in-progress.
 
-hyperlinks to one or two examples of my teaching materials. Note that I don't see any of these as being "finished", but rather a work-in-progress.
+- For STAT 545A/547M (Exploratory Data Analysis), I made the [lecture notes](https://stat545guidebook.netlify.com/) and [course website](https://stat545.stat.ubc.ca/) publicly available. Less relevant are Lectures 11+, taught by Dr. Firas Moosvi, and Lecture 6, a guest lecture taught by my TA, Victor Yuan.
+- For DSCI 551 (Probability for Data Science), I wrote most of the [lecture notes](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/) by using Dr. Mike Gelbart's notes from the previous year as scaffolding.
+- I'm writing an open-source book on regression analysis for Data Science, called [Interpreting Regression](https://interpreting-regression.netlify.com/). It's in its early stages.
 
-- For STAT 545A/547M (Exploratory Data Analysis), I made the [lecture notes](https://stat545guidebook.netlify.com/) and [course website](https://stat545.stat.ubc.ca/). Less relevant are Lectures 11+, taught by Dr. Firas Moosvi, and Lecture 6, a guest lecture taught by my TA, Victor Yuan.
-- For DSCI 551 (Probability for Data Science), I wrote the [lecture notes](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/) by using Dr. Mike Gelbart's notes from the previous year as scaffolding.
-- I'm writing an open-source book on regression analysis for data science, called [Interpreting Regression](https://interpreting-regression.netlify.com/). It's in its early stages.
+You may also find it useful to obtain a list of MDS courses that I would feel comfortable teaching. You can find that list in my CV.
 
-What I'm comfortable teaching (useful in parallel to the minor program in DS)
+I'd be remiss to forego mentioning just why this position fits my career goals. I've identified four pillars of an ideal career. It took me a while to figure out that the EL position nicely satisfies all four, which is why I didn't apply for the position back in 2017. These pillars are, in order of culmination:
 
-Tools; my comfort level with CS. Although I don't have formal training in CS outside of perhaps a few undergraduate courses, my approach to learning these things is to identify tools and techniques that would be useful, and commit to building these tools. I prefer this approach over prescribed training such as online courses, because I find it more genuine as I encounter concepts as they become relevant. For example, I've been learning web hosting as I've been learning about Hugo, blogdown, and netlify to create websites like my homepage, course websites like STAT 545A/547M, and hosting "books" such as Interpreting Regression online. I've learned shell scripting back in my PhD, and continue to learn more, as I embrace GNU Make and workflow automation in general. 
+1. __Application__: addressing real problems with data science. I will continue to actively seek to "sharpen the saw" by putting myself in front of real problems. You can read about this in my vision for education in Statistics.
+2. __Research__: discovering better ways to do data science. To me, this means reframing Statistics from a problem-first approach, and bringing useful yet under-utilized tools to the table. You can read about this in my vision for education in Statistics. 
+3. __Development__: turning new research into programs and tools, which are ideally accessible to the public. To me, this means developing products under the umbrella of EL, such as books and software. You can read about this in my vision for education in Statistics.
+4. __Teaching__: spreading data literacy and enthusiasm to the public. Teaching university courses is a dream come true for me, and so is being a leader by training in a group setting. You can read about this in my teaching and training statements.
 
-Teaching tools and methods
+Here are the names of three references who will submit letters by the end of December 13, 2019:
 
-In this application, I'll show you how my career goals are related to teaching and educational leadership. You'll read about my plans to continue reframing statistics for the purpose of data science by writing books such as interpreting regression and writing software such as dist fire.
+1. Dr. Tiffany Timbers, UBC (current supervisor)
+2. Dr. Michael Gelbart, UBC (current supervisor)
+3. Dr. Harry Joe, UBC (PhD supervisor)
 
-the names of three references who have been asked to send reference letters:
+I am eager to begin the position on the indicated July 1, 2020 start date, but am ultimately flexible. I'm looking forward to talking more about my fit in this EL position in person.
 
-1. Dr. Tiffany Timbers (current supervisor)
-2. Dr. Michael Gelbart (current supervisor)
-3. Dr. Harry Joe (PhD supervisor)
-
-I am eager to begin the position on the indicated July 1, 2020 start date, but am ultimately flexible. 
-
-Enthusiastically yours,
+Sincerely yours,
 
 Vincenzo Coia, PhD
 

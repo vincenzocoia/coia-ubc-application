@@ -94,3 +94,19 @@ As a result of this, I'm hoping that others can feel safer around me, and that I
 
 
 [ ] sensitivity to marginalized groups; embracing diversity.
+
+## Letter to BC Vital Stats:
+
+I'm writing to bring awareness and hopefully encourage change to the discriminative policies regarding birth registration. I've come across the following issues (most of which are at https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/births/birth-registration):
+
+1. A dad is not allowed to register his child's birth on his own, but a mom can. 
+2. A dad is not allowed to apply for MSP and Canada Child Benefits, but a mom can.
+3. A dad is not allowed to be listed as primary caregiver without getting permission from the mom (if present), but a mom can list herself without permission of a present dad.
+
+This tells dads that they are only of secondary importance when it comes to child care, promoting a culture whereby dads don't connect as intimately to their children. It also harms women's ability to establish an equal presence in the workforce as men, due to the expectation that men need not expend as much energy on their child as women.
+
+Even the notion of "primary caregiver" is discriminatory. Asking to identify such an individual is equivalent to asking "which parent is going to give less care to their child?", which is of course very presumptuous, but also promotes a culture of unequal parenting, putting more pressure on one individual.
+
+Lastly, this is non-inclusive of the situation where there's no mom (i.e., two dads), nor the situation where individuals don't squarely identify as either male or female.  Even if BC policy does allow for these cases, these individuals can't just follow the "normal" procedures -- this is differential treatment, and therefore discrimination.
+
+I implore you to modify BC's policies so that gender is not relevant when it comes to child care, and to consider the fact that more than one parent can be "primary" when it comes to providing care. Not only would it help our culture in BC, but BC would act as a world leader in this front, inspiring others to follow suit.

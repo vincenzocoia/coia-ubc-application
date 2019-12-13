@@ -91,7 +91,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-12-11}
+    \date{2019-12-13}
 
 
 \begin{document}
@@ -507,38 +507,29 @@ STATUS:
   Brain dump of ideas
 \item[$\boxtimes$]
   Organization of ideas
-\item[$\square$]
+\item[$\boxtimes$]
   Filling in gaps
-\item[$\square$]
+\item[$\boxtimes$]
   Smooth over to form a draft
 \item[$\square$]
   Complete: no changes needed.
 \end{itemize}
 
-My vision for EL involves:
-
-\begin{itemize}
-\tightlist
-\item
-  reframing Statistics from the perspective of data science from the perspective of solving real-world problems
-\item
-  bringing to life underutilized tools and techniques.
-\item
-  Stewardship of data science: defining data science and maintaining a vision for our organizations (minor program; MDS; STAT 545A/547M, etc), promoting responsible use of data science.
-\end{itemize}
+A major passion of mine is reframing Statistical Science from the lens of Data Science, by taking a ``problem-first'' approach. You can read about my vision in the first section, which is followed by a section describing how I go about executing this vision as educational leadership initiatives.
 
 \hypertarget{statistics-for-data-science}{%
-\subsubsection{Statistics for Data Science}\label{statistics-for-data-science}}
+\subsection{Statistics for Data Science}\label{statistics-for-data-science}}
 
-Why does the way in which we approach statistics for data science need reframing? Statistical Science tends to begin with assumptions / a modelling framework, describing properties and methods that enable solutions to a problem. This is a ``framework-first'' approach. But Statistics for Data Science requires a ``problem-first'' approach, focussing on appropriately constructing a modelling framework from real-world problems. These skills are not translatable, because real problems don't neatly satisfy assumptions, and therefore their solution involves a critical evaluation as to how realistic and how useful assumptions are, as well as what output is suitable for the problem type. This isn't assumption-\emph{checking}, it's assumption-\emph{building}.
+Why does Statistics need reframing for Data Science? Statistical Science tends to begin with assumptions / a modelling framework, then describing properties and methods that enable solutions to a problem. This is a ``framework-first'' approach. But Statistics for Data Science requires a ``problem-first'' approach, focussing on how to appropriately construct a modelling framework from real-world problems. These two approaches are not translatable, because real problems don't neatly satisfy assumptions nor come with a description of what output is appropriate for addressing the problem. A real problem requires critical evaluation as to what outputs and what assumptions are useful and realistic. This isn't assumption-\emph{checking}, it's assumption-\emph{building}.
 
-By the way, even Applied Statistics might sometimes seem to take a problem-first approach, because it starts with a motivating problem. But the focus is still on describing properties of the newly defined framework. Statistics for Data Science must teach how to deal with a wide range of problems, using properties already given to us by Statistical Science.
+By the way, even Applied Statistics might sometimes seem to take a problem-first approach, because it starts with a motivating problem. But the focus is still on describing properties of the newly defined framework, falling squarely within the field of Statistical Science. On the other hand, Statistics for Data Science must focus on how to deal with a wide range of problems, not just one problem type. This is a challenge that relies on the properties already described by Statistical Science, hence why both approaches are important!
 
-The way I see it, teaching a problem-first approach for Statistics for Data Science still has a long way to go. A central and powerful approach that I've been adopting is to create content focussing on the \emph{type of problem} instead of the traditional Statistics topics. Perhaps the best example of this is DSCI 562 (Regression II), which I re-developed last year. Instead of teaching ``Survival Analysis'' and ``Multiple Imputation'', I teach ``regression when data are censored'' and ``regression when data are missing''. This changes the focus of the lessons to be about evaluating possibilities for solving the type of problem, including evaluating the impact of ignoring the problem altogether (perhaps there's little to no impact!). This approach allows students to creatively come up with solutions to a variety of real world problems, which are sure to involve ``combined'' scenarios, such as a censored response with some missing data.
+My viewpoint on this has largely come about through the re-development of many courses and materials throughout the years. Formal redevelopments (or developments) included DSCI 531/532, DSCI 561/562, and BAIT 509; just about all other courses I've been involved with have had some level of redevelopment, such as STAT 545A/547M, DSCI 511, DSCI 574, and DSCI 551, amongst others.
+
+The way I see it, teaching a problem-first approach for Statistics for Data Science still has a long way to go. A central and powerful approach that I've been adopting is to create content focussing on the \emph{type of problem} encountered in real-world problems, instead of the traditional Statistics topics. Perhaps the best example of this is DSCI 562 (Regression II), which I re-developed last year. Instead of teaching ``Survival Analysis'' and ``Multiple Imputation'', I teach ``regression when data are censored'' and ``regression when data are missing''. This changes the focus of the lessons to be about evaluating approaches for solving the type of problem, including evaluating the impact of ignoring the problem altogether (perhaps there's little to no impact!). This approach allows students to creatively come up with solutions to a variety of real world problems, which are sure to involve ``combined'' scenarios, such as a censored response with some missing data.
 
 Sometimes, a traditional statistical topic is made up of more than one type of problem, resulting in a restricted way of thinking. For example, the topic of Generalized Linear Models (GLM's) can be split into two problems: regression when the range of the response is restricted, and using a distributional assumption to improve estimation performance. Both are valuable tools that expand beyond the scope of GLM's, but if just taught as GLM's, restricts students' thinking to the smaller range of problems that GLM's can handle.
-
-Determining the type of problem that a traditional statistical topic addresses is not always obvious, but it's worth the time. I found the GLM example to be tricky; here are some other tricky ones, from DSCI 551 (Probability for Data Science):
+Determining the type of problem that a traditional statistical topic addresses is not always obvious. I found the GLM example to be tricky; here are some other tricky ones, from DSCI 551 (Probability for Data Science):
 
 \begin{itemize}
 \tightlist
@@ -547,35 +538,19 @@ Determining the type of problem that a traditional statistical topic addresses i
 \item
   ``Simulation'' has the underlying problem of calculating probabilistic quantities (mean, probabilities, etc.) when the distributions or calculations are hard to come by.
 \item
-  ``Independence'' is tricky because it's not interesting in practice, but ``dependence'' \emph{is} interesting. Dependence, then, can have an underlying problem of garnering information from a dependent variable (or what I like to call ``harvesting dependence'').
+  ``Independence'' is tricky because it's really ``dependence'' that is more interesting. Dependence, then, can have an underlying problem of garnering information from a dependent variable (or what I like to call ``harvesting dependence'').
 \end{itemize}
 
 This problem-first approach naturally promotes motivation in the classroom, because the topics are designed to be practical from the get-go. Sample real-world problems become important, and where possible, I draw from my capstone and industry experience to create compelling examples. Perhaps my favourite is the \href{https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/simulation.html\#multi-step-simulations-10-min}{``ships making demands at the port'' example in DSCI 551}, which I encountered in one of last year's capstone projects, to demonstrate simulation under a more complicated situation. Another favourite is flood forecasting; another, determining the effect of blue-light-blocking glasses on sleep.
 
-I'm finding that there's a general lack of problem-firsts education in Statistics, as well as a lack of good examples. I envision being a leader in this area. It's actually a major driver for my career, one where when I'm on my deathbed, I'd be proud to have impacted the world by making Statistics more accessible than it is.
-
-With a reframing of Statistics brings to light areas of Statistics that are useful, yet are not receiving much attention. These underutilized tools and techniques have already been described by statisticians, but their underuse perhaps stems from their misunderstanding / emphasis as only being required as assumptions, as well as our community's obsession with the mean.
-
-Lastly, an area that is crucial for EL, yet might not be called EL itself, is continuing to work with external partners, such as the Master of Data Science (MDS) capstone partners, to understand their pressing data issues, and lend a hand once in a while. As Stephen Covey says in ``The 7 Habits of Highly Effective People'', to be effective, one must ``sharpen the saw'' to keep yourself healthy -- except here, this is about remaining current and relevant. This is important for keeping myself and data science education at UBC relevant, as well as continually expanding my skillset. Besides having mentored MDS capstone projects for the past three years, I also did some work on flood forecasting with BGC Engineering this past summer, and plan to continue doing more. There are also simpler ways to sharpen the saw, including staying in touch with the data science community through Twitter, students and colleagues at UBC, newsletters such as ROpenSci and RStudio, as well as just plain looking for solutions to a new problem, or new solutions to an old problem.
-
-Stewardship for Data Science
+An interesting thing that happens when taking a problem-first approach is that it brings to light areas of Statistics that are useful, yet are not receiving much attention. Two examples are quantile regression or distributional forecasting instead of mean regression. Another example is extreme value modelling (EVM), which becomes invaluable for problems that have heavy tailed data, such as at least one capstone project from Seahorse Strategies last year (the team should have used EVM, but did not, because we didn't teach it in MDS), as well as organizations tackling the issue of flood forecasting and flood frequency assessments. Interestingly, these topics tend to be deemed difficult, probably because of our community's obsession with the mean, as well as a general misunderstanding of the role of distributions outside of just being a ``necessary statistical assumption''. I believe these topics are more accessible than they're made out to be, if taught from a problem-first lens, because the mathematical details are inconsequential.
 
 \hypertarget{educational-leadership}{%
-\subsubsection{Educational Leadership}\label{educational-leadership}}
+\subsection{Educational Leadership}\label{educational-leadership}}
 
-To reframe Statistics, I've been developing a book called ``Interpreting Regression'' that teaches a scenario-first approach, and intent to continue its development. When I've had the opportunity, I've been writing course notes to be recycled in this book. Some of the topics which I feel have a new perspective include:
+I'm finding that there's a general lack of problem-first education in Statistics, as well as a lack of good examples, but this presents opportunity. I envision being a leader in building Statistics for Data Science -- it's actually a major component of my career and my life. This section describes my strategy plan for having an impact both within and outside of the classroom walls, including some of the things that I've accomplished already.
 
-\begin{itemize}
-\tightlist
-\item
-  Survival analysis resources focus on the how of the Proportional hazards or Accelerated Failure models, or the survival curve estimation. First of all, with a lack of attention placed on the value and interpretation of distributions, survival curves and hazard functions are right off the bat a confusing introduction. Then, why we would even bother estimating such a thing, or setting up such a model, are not discussed. Also, the relationship between the Kaplan-Meier survival curve and the survival regression models is not clear. It's also not clear how one would apply machine learning methods with censored data. Again -- the framework has been set up (assumptions laid out for PH model or AF model), and properties described of these models (beta's are log hazard ratio), but this leaves students thinking ``I guess this is just what we do when faced with censored data'', as opposed to the more creative approach of making decisions on the modular components of modelling.
-\item
-  The teaching of MLE focusses on the how, and even then, it's hard to find a good resource on the how. But, after ample searching, I've yet to find the why of MLE, and this is because it's not framed in terms of deciding which assumptions to enforce in your model.
-\item
-  multiple imputation for missing data as plugging in a distribution to get marginal quantities. Without this being explained, students are left thinking ``I guess we should just use multiple imputation when faced with missing data, because that's just what we do''.
-\end{itemize}
-
-Also, making course material public. I've already been doing this. Here is the activity from my most recent tweet of my most recent release (551):
+Perhaps the simplest approach I've taken is making my course material public, which I intend to continue doing. People are starting to notice. See the figure for activity from my most recent tweet of my most recent release, for DSCI 551. Also, the \href{https://stat545guidebook.netlify.com/}{STAT 545A/547M content} is still receiving a lot of global attention, largely thanks to Dr.~Jenny Bryan's original efforts with the course (although the content needs more upgrading than I've had capacity to supply).
 
 \begin{figure}
 \centering
@@ -583,75 +558,25 @@ Also, making course material public. I've already been doing this. Here is the a
 \caption{DSCI 551 tweet activity}
 \end{figure}
 
-In addition to writing about these (underused topics), I'm also developing software. Here are examples:
+I like to think beyond the structure of a classroom, by developing material intended to be used by a wider range of people than those who refer to course notes. So far, this means writing a book focussing on regression analysis from a problem-first perspective. It's far from done, but it's also far from just starting out. I'm calling it ``\href{https://interpreting-regression.netlify.com/}{Interpreting Regression}''. For maximum return on investment, I try to write course notes that can be easily adapted to the wider audience of the book. I believe distributional forecasting deserves its own book as well, and would include approaches like extreme value modelling, and techniques like copula modelling. These topics are more practical and accessible than people think.
+
+I also see the need for new R packages for making Statistics more accessible for Data Science. I made some S3 Object Oriented R packages during my PhD with many useful functions, but being my first R packages, they have many deficiencies, including a lack of vignettes, too many overly complicated functions, and a lack of tests. I have ideas for packages to replace these older ones, as well as altogether new ones. My goal for each one is to submit each to CRAN and ROpenSci, publishing a corresponding paper to the Journal of Statistical Software, as well as making helpful vignettes. Here are my ideas:
 
 \begin{itemize}
 \tightlist
 \item
-  There is a wealth of value that using both parametric and non-parametric distributions for the response can bring to data science -- ``distributional forecasting''.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    I am developing an R package that works with distributions as objects, as opposed to handling the unwieldly pieces of functions like \texttt{dnorm()} and \texttt{rnbinom()}. My goal is to submit this package to CRAN and ROpenSci, and perhaps grab the attention of RStudio and the \texttt{tidymodels} team.
-  \end{itemize}
+  The \href{https://github.com/vincenzocoia/distplyr/}{\texttt{distplyr}} package (which is already underway) will make it easier to work with univariate distributions, including empirical ones, for the promotion of distribution-based analyses. This makes a distribution an S3 object, which can then be manipulated. This would, for example, aid in the teaching of mixture distributions, and aid in the creation of extreme value models using functions like \texttt{distplyr::right\_graft()} or \texttt{distplyr::left\_graft()}.
 \item
-  By extension, another area of statistics that I believe are underappreciated are copulas. Once distributional forecasting is truly appreciated, then copulas become invaluable for parametric modelling for prediction, as well as providing new insight into the properties of data. I believe that copulas are currently not accessible enough due to complicated formulas and jargon, yet are tremendously useful for distributional forecasting. I hope to make this framework more accessible by developing an R package called \texttt{coperate} and \texttt{cmc} for easy manipulation of copulas, and easily created copula-based models (respectively).
+  The \href{https://github.com/vincenzocoia/coperate/}{\texttt{coperate}} package is similar to \texttt{distplyr} in that it makes it easier to work with copulas by making a copula an S3 object. This will replace the \href{https://github.com/vincenzocoia/copsupp/}{\texttt{copsupp}} package, one of my deficient R packages from my PhD days, yet still has lots of useful functionality.
 \item
-  Extreme value modelling also becomes invaluable for those cases that have heavy tailed data, such as at least one capstone project from Seahorse strategies (the team didn't end up using EVT because of lack of attention here, but should have), as well as organizations tackling the issue of flood forecasting and flood frequency assessments. Again, submitted to CRAN and ROpenSci. Extreme value models will be easy to build using the distplyr package I mentioned earlier by easily grafting distributional tails with \texttt{distplyr::right\_connect()} and \texttt{distplyr::left\_connect()}.
+  Modelling packages to go alongside the above two.
 \end{itemize}
 
-I also envision being a steward for data science by defining data science and hosting a data science workshop / conference. This is important to keep the dialogue open about just how we should go about teaching data science (so that insight such as what's presented here is spread), and what we should consider as being within the realm of data science. Taking the opportunity early to do this will help in our efforts of establishing ourselves as leaders in the field of data science. The beginnings of this workshop are underway, the first step of which was defining a vision for MDS, which I initiated.
+In short, I'm aiming to lead the development of a suite of tools that have a ``wow'' quality, so that they become go-to resources for people needing help for Statistics for Data Science to satisfy their unique needs. Aside from books, public course content, and R packages that I've mentioned above, I'm curious as to what other medium would appeal to other aspects of learning. R shiny web apps is one such medium that is on my radar. For example, the impact of multicollinearity is much easier to grasp by visualizing a regression plane slicing a data cloud, allowing the user to change the correlation between the covariates. Other media are only in the space of my imagination, but that's where things begin! Maybe one day I will in fact start an engaging podcast with my colleagues, or curate a monthly ``Statistics for Data Science Box'' containing books or other resources for busy professionals wanting to grow and learn. The possibilities are endless.
 
-I envision using the above three components for developing curricula at UBC, whether it be comtinuing to develop MDS, building a minor program, or other things. I also envision making this material public to establish ourselves as leaders in data science. Examples of courses that I've already redeveloped:
+A completely different area where I would like to provide leadership is in teaching educators how to go about teaching Statistics for Data Science, because the field is so new. I of course don't have all the answers, so perhaps the best medium for this is to host a workshop / conference on Data Science education. In fact, I've already helped kick off a vision for such a workshop by spearheading the creation of a vision for MDS. Related, I believe it's important to be stewards of Data Science by promoting responsible use, which is reflected in our material, but also in this workshop / conference.
 
-\begin{itemize}
-\tightlist
-\item
-  Curriculum development of 551 throughout the years; 561 w/ Gaby and Sunny, later Tom; 531; 511?; 563; BAIT 509; 562; STAT 545A/547M (expanded Jenny's work, but this needs more help, especially in the face of a changing data science landscape at UBC).
-\end{itemize}
-
-To summarize my envisioned educational leadership throughout my career, as I see it now:
-
-\begin{itemize}
-\tightlist
-\item
-  Developing R packages with colleagues to help reframe statistics for data science through modular assumptions:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    distplyr for distributional forecasting: distributions as S3 objects in R, which can be manipulated and easily visualized.
-  \item
-    coperate for easily understanding and handling copulas.
-  \item
-    cmc
-  \end{itemize}
-\item
-  Writing public resources. I envision these as being ``go-to'' resources for learning, and making decisions based on the modularity of assumptions.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Books for reframing statistics, starting with ``Interpreting Regression'', then perhaps moving on to distributional forecasting.
-  \item
-    Vignettes and journal articles about the use of said R packages.
-  \item
-    Course materials made public.
-  \item
-    Data science ``cheat sheets'', especially when it comes to a guide for making decision about model assumptions.
-  \end{itemize}
-\item
-  Hosting an annual ``Education in Data Science'' workshop/conference (we are already in the early stages of this).
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Also, keeping an MDS vision statement.
-  \end{itemize}
-\end{itemize}
-
-``Sharpening the saw'' by work with other organizations, and keeping up with the community.
+Because a problem-first approach is so critical for Statistics for Data Science, I believe a final area of leadership is to exercise my data science skills, or as Stephen Covey says in his book ``The 7 Habits of Highly Effective People'', to ``sharpen the saw''. Just as it's important for us to take time to stay healthy, it's also important as an educator to keep my Data Science skills sharpened, as well as up to pace with a changing field. Whether or not this is considered EL, it's important so that I can give students the most relevant and best education I can possibly give. Simple ways of remaining sharp, or at least up to date, is to subscribe to relevant newsletters such as RStudio's and ROpenSci's, and stay involves with the Data Science community on Twitter. But I believe it's important to actually do a bit of work for external organizations to help them with their data science needs. I did this last summer with BGC Engineering by dedicating a small amount of time each week, and this opened my eyes to their values and their data science problems, which I can then bring back to the classroom.
 
 \hypertarget{statement-of-teaching-and-training-philosophy}{%
 \section{statement of teaching and training philosophy}\label{statement-of-teaching-and-training-philosophy}}
@@ -903,6 +828,30 @@ Means pointing out when non-inclusive language or behaviour is used, whether int
 As a result of this, I'm hoping that others can feel safer around me, and that I inspire others to have pride in who they are as well. I also hope that it brings awareness to those who are not familiar with LGBTQ+ issues -- for example, the more someone sees preferred personal pronouns being specified, the more likely they are to look up why more and more people are posting this and what this means.
 
 {[} {]} sensitivity to marginalized groups; embracing diversity.
+
+\hypertarget{letter-to-bc-vital-stats}{%
+\subsection{Letter to BC Vital Stats:}\label{letter-to-bc-vital-stats}}
+
+I'm writing to bring awareness and hopefully encourage change to the discriminative policies regarding birth registration. I've come across the following issues (most of which are at \url{https://www2.gov.bc.ca/gov/content/life-events/birth-adoption/births/birth-registration}):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A dad is not allowed to register his child's birth on his own, but a mom can.
+\item
+  A dad is not allowed to apply for MSP and Canada Child Benefits, but a mom can.
+\item
+  A dad is not allowed to be listed as primary caregiver without getting permission from the mom (if present), but a mom can list herself without permission of a present dad.
+\end{enumerate}
+
+This tells dads that they are only of secondary importance when it comes to child care, promoting a culture whereby dads don't connect as intimately to their children. It also harms women's ability to establish an equal presence in the workforce as men, due to the expectation that men need not expend as much energy on their child as women.
+
+Even the notion of ``primary caregiver'' is discriminatory. Asking to identify such an individual is equivalent to asking ``which parent is going to give less care to their child?'', which is of course very presumptuous, but also promotes a culture of unequal parenting, putting more pressure on one individual.
+
+Lastly, this is non-inclusive of the situation where there's no mom (i.e., two dads), nor the situation where individuals don't squarely identify as either male or female. Even if BC policy does allow for these cases, these individuals can't just follow the ``normal'' procedures -- this is differential treatment, and therefore discrimination.
+
+I implore you to modify BC's policies so that gender is not relevant when it comes to child care, and to consider the fact that more than one parent can be ``primary'' when it comes to providing care. Not only would it help our culture in BC, but BC would act as a world leader in this front, inspiring others to follow suit.
 
 
 \end{document}

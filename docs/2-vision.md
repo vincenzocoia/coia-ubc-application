@@ -1,23 +1,14 @@
 # Statement of vision for education in statistics and data science
 
-<!-- particularly attractive: Candidates motivated to innovate around the teaching of both core statistical topics (e.g., estimation, hypothesis testing) and more nascent data science topics (e.g., visualization, data wrangling, transparent and reproducible workflows). -->
-
-<!-- Asset: Experience with evidence-based teaching methods, curriculum development, course design, and other initiatives that advance the university’s ability to excel in its teaching and learning mandate.  -->
-
 A major passion of mine is reframing Statistical Science from the lens of Data Science, by taking a "problem-first" approach. You can read about my vision in the first section, which is followed by a section describing how I go about executing this vision as educational leadership initiatives. 
 
 ## Statistics for Data Science
 
-<!-- I imagine this section to be about how I think statistics  -->
-
-
-<!-- This section (perhaps to be renamed or split into multiple) is my vision for Data Science, especially Statistics for Data Science. It's not what I'm doing for EL. -->
-
-Why does Statistics need reframing for Data Science? Statistical Science tends to begin with assumptions / a modelling framework, then describing properties and methods that enable solutions to a problem. This is a "framework-first" approach. But Statistics for Data Science requires a "problem-first" approach, focussing on how to appropriately construct a modelling framework from real-world problems. These two approaches are not translatable, because real problems don't neatly satisfy assumptions nor come with a description of what output is appropriate for addressing the problem. A real problem requires critical evaluation as to what outputs and what assumptions are useful and realistic. This isn't assumption-_checking_, it's assumption-_building_.
+Why does Statistics need reframing for Data Science? Statistical Science tends to begin with assumptions / a modelling framework, then describing properties and methods that enable solutions to a problem. This is a "framework-first" approach. But Statistics for Data Science requires a "problem-first" approach, focusing on how to appropriately construct a modelling framework from real-world problems. These two approaches are not translatable, because real problems don't neatly satisfy assumptions nor come with a description of what output is appropriate for addressing the problem. A real problem requires critical evaluation as to what outputs and what assumptions are useful and realistic. This isn't assumption-_checking_, it's assumption-_building_.
 
 By the way, even Applied Statistics might sometimes seem to take a problem-first approach, because it starts with a motivating problem. But the focus is still on describing properties of the newly defined framework, falling squarely within the field of Statistical Science. On the other hand, Statistics for Data Science must focus on how to deal with a wide range of problems, not just one problem type. This is a challenge that relies on the properties already described by Statistical Science, hence why both approaches are important!
 
-The way I see it, teaching a problem-first approach for Statistics for Data Science still has a long way to go. A central and powerful approach that I've been adopting is to create content focussing on the _type of problem_ encountered in real-world problems, instead of the traditional Statistics topics. Perhaps the best example of this is [DSCI 562](https://ubc-mds.github.io/DSCI_562_regr-2/) (Regression II), which I re-developed last year. Instead of teaching "Survival Analysis" and "Multiple Imputation", I teach "regression when data are censored" and "regression when data are missing". This changes the focus of the lessons to be about evaluating approaches for solving the type of problem, including evaluating the impact of ignoring the problem altogether (perhaps there's little to no impact!). This approach allows students to creatively come up with solutions to a variety of real world problems, which are sure to involve "combined" scenarios, such as a censored response with some missing data.
+The way I see it, teaching a problem-first approach for Statistics for Data Science still has a long way to go. A central and powerful approach that I've been adopting is to create content focusing on the _type of problem_ encountered in real-world problems, instead of the traditional Statistics topics. Perhaps the best example of this is [DSCI 562](https://ubc-mds.github.io/DSCI_562_regr-2/) (Regression II), which I re-developed last year. Instead of teaching "Survival Analysis" and "Multiple Imputation", I teach "regression when data are censored" and "regression when data are missing". This changes the focus of the lessons to be about evaluating approaches for solving the type of problem, including evaluating the impact of ignoring the problem altogether (perhaps there's little to no impact!). This approach allows students to creatively come up with solutions to a variety of real world problems, which are sure to involve "combined" scenarios, such as a censored response with some missing data.
 
 Sometimes, a traditional statistical topic is made up of more than one type of problem, resulting in a restricted way of thinking. For example, the topic of Generalized Linear Models (GLM's) can be split into two problems: regression when the range of the response is restricted, and using a distributional assumption to improve estimation performance. Both are valuable tools that expand beyond the scope of GLM's, but if just taught as GLM's, restricts students' thinking to the smaller range of problems that GLM's can handle. 
 Determining the type of problem that a traditional statistical topic addresses is not always obvious. I found the GLM example to be tricky; here are some other tricky ones, from [DSCI 551](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/) (Probability for Data Science):
@@ -32,22 +23,13 @@ An interesting thing that happens when taking a problem-first approach is that i
 
 ## Educational Leadership
 
-<!-- EL = an activity taken at UBC and elsewhere to advance innovation in teaching and learning with impact beyond one’s classroom -->
-
-
-<!-- Now that I've described my vision for data science, it's now time to describe how I've been (and intend to) make this EL. Provide evidence of goodness where possible. -->
-
-<!-- from Mike: what "educational leadership" (EL) means to you and what EL you might pursue in the future. Vision for long-term career growth towards Prof of Teaching, even if it's tentative. -->
-
-<!-- must provide evidence for promise of educational leadership at UBC and nationally or internationally -->
-
 I'm finding that there's a general lack of problem-first education in Statistics, as well as a lack of good examples, but this presents opportunity. I envision being a leader in building Statistics for Data Science -- it's actually a major component of my life goals. This section describes my strategy plan for having an impact, including some of the things that I've accomplished already.
 
 Perhaps the simplest approach I've taken is making my course material public, which I intend to continue doing. People are starting to notice. See the figure for activity from my most recent tweet of my most recent release, for DSCI 551. Also, the [STAT 545A/547M content](https://stat545guidebook.netlify.com/) is still receiving a lot of global attention, largely thanks to Dr. Jenny Bryan's original efforts with the course (although the content needs more upgrading than I've had capacity to supply).
 
 ![DSCI 551 tweet activity](./img/551_tweet.png)
 
-I like to think beyond the structure of a classroom, by developing material intended to be used by a wider range of people than those who refer to course notes. So far, this means writing a book focussing on regression analysis from a problem-first perspective. It's far from done, but I'm also well into its development. I'm calling it "[Interpreting Regression](https://interpreting-regression.netlify.com/)". For maximum return on investment, I try to write course notes that can be easily adapted to the wider audience of the book. I believe distributional forecasting deserves its own book as well, and would include approaches like extreme value modelling, and techniques like copula modelling. These topics are more practical and accessible than people think.
+I like to think beyond the structure of a classroom, by developing material intended to be used by a wider range of people than those who refer to course notes. So far, this means writing a book focusing on regression analysis from a problem-first perspective. It's far from done, but I'm also well into its development. I'm calling it "[Interpreting Regression](https://interpreting-regression.netlify.com/)". For maximum return on investment, I try to write course notes that can be easily adapted to the wider audience of the book. I believe distributional forecasting deserves its own book as well, and would include approaches like extreme value modelling, and techniques like copula modelling. These topics are more practical and accessible than people think.
 
 I also see the need for new R packages for making Statistics more accessible for Data Science. I made some S3 Object Oriented R packages during my PhD with many useful functions, but being my first R packages, they have many deficiencies, including a lack of vignettes, too many overly complicated functions, and a lack of tests. I have ideas for packages to replace these older ones, as well as altogether new ones. My goal for each package is to submit each to CRAN and ROpenSci, publishing a corresponding paper to the Journal of Statistical Software, as well as making helpful vignettes. Here are my ideas:
 

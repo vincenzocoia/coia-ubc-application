@@ -113,7 +113,7 @@ I've been involved with the development of the following courses:
 Some courses have been partially redeveloped.
 
 - STAT 545A/547M: Some redevelopment of content; much redevelopment on course website and infrastructure.
-- DSCI 551: Some redevelopment of lectures and lab to accomodate a problem-first approach.
+- DSCI 551: Some redevelopment of lectures and lab to accommodate a problem-first approach.
 - DSCI 554: The labs, after some shuffling of content to and from other parts of MDS.
 
 ### Teaching Assistantships

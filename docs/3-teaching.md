@@ -8,15 +8,6 @@
 <!-- I imagine this section to be on how I go about teaching -->
 
 
-STATUS:
-
-- [x] Brain dump of ideas
-- [x] Organization of ideas
-- [x] Filling in gaps
-- [x] Smooth over to form a draft
-- [ ] Complete: no changes needed.
-
-
 
 My philosophy on teaching can best be broken down into four categories: __appropriate course structure__, __responsive teaching__, __motivation__, and __self-improvement__.
 
@@ -53,7 +44,7 @@ I take to heart what I learned from Greg Wilson, that teaching is much more abou
 
 What's better than effective teaching? Teaching that continually becomes more effective.
 
-Community engagement is one method to become a better teacher. This means keeping an open dialogue and sharing experiences with other teachers, especially my colleagues. Aside from simple acts like sharing ideas and experiences through Slack and gatherings, I'm proud that my team gives and receives formative feedback on our teaching by visiting each others' lectures.
+Community engagement is one method to become a better teacher. This means keeping an open dialogue and sharing experiences with other teachers, especially my colleagues. Aside from simple acts like sharing ideas and experiences through Slack and gatherings, I'm proud that my team gives and receives formative feedback on our teaching by visiting each others' lectures. I also take the opportunity to partake in workshops, such as UBC's Instructional Skills Workshop, and MDS's annual workshop on Data Science education.
 
 An after-action review is another effective method, involving capturing the insight you gain after teaching. There are three ways I engage in an after-action review. First, I capture regular insight throughout the delivery of the course as GitHub Issues, so that the insight can easily be referred to in the future and by any of my colleagues. Secondly, I find keeping a teaching journal that's not tied to a specific course is useful for becoming a better teacher in general -- and it's even easier now that my team has our lectures recorded. Thirdly, my colleagues and I engage in a "retreat" at the end of each term, to discuss our insight on our courses and the MDS program as a whole.
 
@@ -64,15 +55,6 @@ Realizing one's own struggles is also critical for self-improvement. For now, on
 <!-- must provide evidence for ability to work collaboratively as well as independently, and to supervise the work of others -->
 
 <!-- Note to self: I think the work I mention elsewhere in my application acts as evidence for the ability to work independently -->
-
-
-STATUS:
-
-- [x] Brain dump of ideas
-- [x] Organization of ideas
-- [x] Filling in gaps
-- [x] Smooth over to form a draft
-- [ ] Complete: no changes needed.
 
 
 When it comes to training, I aim to foster a clear and highly communicative environment between me and my trainees.

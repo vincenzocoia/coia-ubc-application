@@ -5,9 +5,14 @@
 2017/01 - present    
 **Lecturer of Data Science**    
 (Initially: Postdoctoral Teaching and Learning Fellow)    
-Masters of Data Science Program, and the Department of Statistics    
+Masters of Data Science Program, Department of Statistics    
 The University of British Columbia    
 Vancouver, BC    
+
+2019/05 - 2019/08
+**Part-time Flood Forecasting Consultant**
+BGC Engineering
+Vancouver, BC
 
 2009/05 - 2014/05    
 **Short-term statistical consulting** (6 projects)    
@@ -37,13 +42,92 @@ Concentration in Statistics
 Brock University    
 Conferred "With First-Class Standing" on June 7, 2011    
 
-### Courses Taught
+## Teaching
 
-DSCI 511, Lecture Instructor, 2018/19
+### Course Involvement
 
-prior to MDS, TA for many years.
+The following is a table of courses that I've been either lecture or lab instructor for. They all took place at UBC.
 
-### Volunteer Positions
+I also list a rating as to how comfortable I am to teach the lectures of the course (perhaps a little bit of enthusiasm is mixed into the scale, too). The ratings are:
+
+5: Very comfortable    
+4: Comfortable    
+3: Neutral    
+2: Uncomfortable    
+1: Very uncomfortable    
+
+| Course    | Comfort Level | Title | Involvement |
+|-----------|---------------|-------|-------------|
+| BAIT 509  | 4 | Business Applications of Machine Learning | Instructor, 2 years |
+| STAT 545A | 5 | Exploratory Data Analysis, Part I | Instructor, 3 years |
+| STAT 547M | 5 | Exploratory Data Analysis, Part II | Instructor, 2 years |
+| DSCI 511  | 5 | Programming for Data Science | Lecture and Lab instructor, 2 years |
+| DSCI 531  | 4 | Data Visualization I | Lecture instructor, 2 years; lab instructor, 1 year |
+| DSCI 562  | 5 | Regression II | Lecture Instructor, 1 year; Lab Instructor, 2 years |
+| DSCI 551  | 5 | Probability for Data Science | Lecture Instructor, 1 year |
+| DSCI 561  | 5 | Regression I | Lab Instructor, 1 year |
+| DSCI 571  | 4 | Supervised Learning I | Lab Instructor, 1 year |
+| DSCI 532  | 2 | Data Visualization II | Lab Instructor, 2 years |
+| DSCI 573  | 4 | Feature and Model Selection | Lab Instructor, 1 year |
+| DSCI 563  | 2 | Unsupervised Learning | Lab Instructor, 1 year |
+| DSCI 553  | 4 | Statistical Inference and Computation II (Bayesian Statistics) | Lab Instructor, 1 year |
+| DSCI 574  | 5 | Spatial and Temporal Models | Lab Instructor, 2 years |
+| DSCI 554  | 4 | Experimentation and Causal Inference | Lab Instructor, 2 years |
+| DSCI 591  | 5 | MDS Capstone Project | Supervised 8 student teams over 3 years |
+
+Courses that I have not been part of the teaching team for, but have a comfort level of at least 4:
+
+| Course | Comfort Level | Title |
+|--------|---------------|-------|
+| DSCI 521 | 5 | Computing Platforms for Data Science |
+| DSCI 542 | 3-4 | Communication and Argumentation |
+| DSCI 523 | 5 (R); 2 (python) | Data Wrangling |
+| DSCI 552 | 5 | Statistical Inference and Computation I |
+
+
+Courses that have a comfort level of 1 that I have not been a part of:
+
+| Course | Comfort Level | Title |
+|--------|---------------|-------|
+| DSCI 513 | 1 | Databases and Data Retrieval |
+| DSCI 572 | 1 | Supervised Learning II |
+| DSCI 541 | 1 | Privacy, Ethics, and Security |
+| DSCI 525 | 1 | Web and Cloud Computing |
+| DSCI 575 | 1 | Advanced Machine Learning |
+
+### Course (Re-) Developments
+
+I've been involved with the redevelopment of the following courses:
+
+- DSCI 561: Here, I lead a team and supervised one graduate student to redevelop the labs.
+- DSCI 562: Both lectures and labs
+- DSCI 531: The lectures one year, then the labs the following year.
+- DSCI 532: Here, I lead a team and supervised two TA's to redevelop the labs.
+- DSCI 574: The labs.
+
+Some courses have been partially redeveloped.
+
+- STAT 545A/547M: Some redevelopment of content; much redevelopment on course website and infrastructure.
+- DSCI 551: Some redevelopment of lectures and lab to accomodate a problem-first approach.
+- DSCI 554: The labs, after some shuffling of content to and from other parts of MDS.
+
+### Teaching Assistantships
+
+__Duration__: From the latter part of my undergrad, to the end of my PhD.
+
+UBC:
+
+- **SCIE 300: Communicating Science** (5x)    
+
+Brock University:
+
+- **MATH 4P82/5P82: Non-parametric Statistics**
+- **MATH 3P82: Regression Analysis**
+- **MATH 4P81/5P81: Sampling Theory**
+- **MATH 3P81: Experimental Design** (2x)
+- **MATH 2F40: Mathematics Integrated w/ Computers and Applications II**
+
+## Volunteer Positions
 
 2016/09 - 2016/02    
 **Science World at TELUS World of Science **    
@@ -66,7 +150,7 @@ Niagara Falls, ON
 15.0 hours   
 
 
-### Research Assistantships
+## Research Assistantships
 
 2013/05 - 2013/08    
 **Robust penalized regression**    
@@ -92,24 +176,14 @@ Brock University
 St. Catharines, ON    
 
 
-### Teaching Assistantships
-
-__Duration__: From the latter part of my undergrad, to the end of my PhD.
-
-UBC:
-
-- **SCIE 300: Communicating Science** (5x)    
-
-Brock University:
-
-- **MATH 4P82/5P82: Non-parametric Statistics**
-- **MATH 3P82: Regression Analysis**
-- **MATH 4P81/5P81: Sampling Theory**
-- **MATH 3P81: Experimental Design** (2x)
-- **MATH 2F40: Mathematics Integrated w/ Computers and Applications II**
 
 
 ## Publications and Talks
+
+### Articles in Preparation
+
+-   Coia, V., Joe, H., and Nolde, N. (2020?) Extreme Quantile Regression and the Copula-Marginal Composition Method.
+    Status: Wrapping up the demonstration analysis 
 
 ### Articles Submitted to Refereed Journals
 
@@ -133,6 +207,10 @@ Brock University:
     24882498.
 
 ### Conference and Roundtable Contributions
+
+-   Coia, V. "[The squared error has friends, too!](https://vincenzocoia.com/post/20190316-ubc-sfu/)"
+    (Contributed Talk). SFU/UBC Joint Graduate Student Seminar (Winter).
+    Spring 2019 at the SFU Harbour Centre, Vancouver, BC.
 
 -   Coia, V., Nolde, N., and Joe, H. Forecasting Extremes for Flooding
     (Invited Talk). The 44th Annual Meeting of the Statistical Society

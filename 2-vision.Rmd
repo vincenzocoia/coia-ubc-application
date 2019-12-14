@@ -4,14 +4,6 @@
 
 <!-- Asset: Experience with evidence-based teaching methods, curriculum development, course design, and other initiatives that advance the university’s ability to excel in its teaching and learning mandate.  -->
 
-STATUS:
-
-- [x] Brain dump of ideas
-- [x] Organization of ideas
-- [x] Filling in gaps
-- [x] Smooth over to form a draft
-- [ ] Complete: no changes needed.
-
 A major passion of mine is reframing Statistical Science from the lens of Data Science, by taking a "problem-first" approach. You can read about my vision in the first section, which is followed by a section describing how I go about executing this vision as educational leadership initiatives. 
 
 ## Statistics for Data Science
@@ -67,6 +59,6 @@ I also see the need for new R packages for making Statistics more accessible for
 
 In short, I'm aiming to lead the development of a suite of tools that have a "wow" quality, so that they become go-to resources for people needing help for Statistics for Data Science to satisfy their unique needs. Aside from books, public course content, and R packages that I've mentioned above, I'm curious as to what other medium would appeal to other aspects of learning. R shiny web apps is one such medium that is on my radar. For example, the impact of multicollinearity is much easier to grasp by visualizing a regression plane slicing a data cloud, allowing the user to change the correlation between the covariates. Other media are only in the space of my imagination, but that's where things begin! Maybe one day I will in fact start an engaging podcast with my colleagues, or curate a monthly "Statistics for Data Science Box" containing books or other resources for busy professionals wanting to grow and learn. The possibilities are endless.
 
-A completely different area where I would like to provide leadership is in teaching educators how to go about teaching Statistics for Data Science, because the field is so new. I of course don't have all the answers, so perhaps the best medium for this is to host a workshop / conference on Data Science education. In fact, I've already helped kick off a vision for such a workshop by spearheading the creation of a vision for MDS. Related, I believe it's important to be stewards of Data Science by promoting responsible use, which is reflected in our material, but also in this workshop / conference.
+A completely different area where I would like to provide leadership is in teaching educators how to go about teaching Statistics for Data Science, because the field is so new. I of course don't have all the answers, so perhaps the best medium for this is to host workshops on Data Science education. In fact, I've already helped kick off a vision for an international workshop by spearheading the creation of a vision for MDS. Related, I believe it's important to be stewards of Data Science by promoting responsible use, which is reflected in our material, but also in this workshop / conference.
 
 Because a problem-first approach is so critical for Statistics for Data Science, I believe a final area of leadership is to exercise my data science skills, or as Stephen Covey says in his book "The 7 Habits of Highly Effective People", to "sharpen the saw". Just as it's important for us to take time to stay healthy, it's also important as an educator to keep my Data Science skills sharpened, as well as up to pace with a changing field. Whether or not this is considered EL, it's important so that I can give students the most relevant and best education I can possibly give. Simple ways of remaining sharp, or at least up to date, is to subscribe to relevant newsletters such as RStudio's and ROpenSci's, and stay involves with the Data Science community on Twitter. But I believe it's important to actually do a bit of work for external organizations to help them with their data science needs. I did this last summer with BGC Engineering by dedicating a small amount of time each week, and this opened my eyes to their values and their data science problems, which I can then bring back to the classroom.

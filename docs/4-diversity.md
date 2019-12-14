@@ -1,14 +1,5 @@
 # Diversity Statement
 
-STATUS:
-
-- [x] Brain dump of ideas
-- [x] Organization of ideas
-- [x] Filling in gaps
-- [x] Smooth over to form a draft
-- [ ] Complete: no changes needed.
-
-
 People deserve the same respect regardless of their identity. Any differential treatment is discrimination, and is problematic because it leaves people feeling disrespected, or worse, puts an impediment on one's life. As an educational leader, awareness of issues is critical, so I begin by expressing some of my views. I myself and no stranger to discrimination, and I'd like to share some stories in the second section. Lastly, I end with my views of how I promote inclusivity.
 
 

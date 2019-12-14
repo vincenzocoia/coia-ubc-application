@@ -16,16 +16,6 @@ description: "Job #35876"
 
 # Cover Letter
 
-**NOTE: THIS APPLICATION IS A WORK-IN-PROGRESS**
-
-Cover letter STATUS:
-
-- [x] Brain dump of ideas
-- [x] Organization of ideas
-- [x] Filling in gaps
-- [x] Smooth over to form a draft
-- [ ] Complete: no changes needed.
-
 Dear members of the search committee,
 
 I am writing to enthusiastically apply for a tenure-track instructor position in Statistics ([Job #35876](https://www.stat.ubc.ca/three-tenure-track-instructor-positions-statistics-35876)). Ever since joining the department of Statistics full time in early 2017, largely to advance the Master of Data Science (MDS) program at UBC, I've come to realize just how ideal of a fit the educational leadership stream is for me. My aim with this application is to indicate why this is so, as well as why the department and UBC (and external to UBC!) would benefit by promoting me to the educational leadership (EL) stream. An electronic version of this application can be found at [coia-ubc-application.netlify.com](https://coia-ubc-application.netlify.com/).

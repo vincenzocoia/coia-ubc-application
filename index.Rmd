@@ -39,6 +39,7 @@ Here are a few links to examples of teaching material that I've created. Note th
 - For STAT 545A/547M (Exploratory Data Analysis), I made the [lecture notes](https://stat545guidebook.netlify.com/) and [course website](https://stat545.stat.ubc.ca/) publicly available. Less relevant are Lectures 11+, taught by Dr. Firas Moosvi, and Lecture 6, a guest lecture taught by my TA, Victor Yuan.
 - For DSCI 551 (Probability for Data Science), I wrote most of the [lecture notes](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/) by using Dr. Mike Gelbart's notes from the previous year as scaffolding.
 - You can find the [DSCI 531 notes here](https://ubc-mds.github.io/DSCI_531_viz-1/) from the 2018/19 academic year, reflecting an older way I would structure course material.
+- You can find the [DSCI 562 notes here](https://ubc-mds.github.io/DSCI_562_regr-2/) from last year. This still needs lots of help, but the foundations are there.
 - I'm writing an open-source book on regression analysis for Data Science, called [Interpreting Regression](https://interpreting-regression.netlify.com/). It's in its early stages.
 
 You may also find it useful to obtain a list of MDS courses that I would feel comfortable (or uncomfortable) teaching. You can find that list in the [Course Involvement] section of my CV.

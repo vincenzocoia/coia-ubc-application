@@ -9,10 +9,10 @@ Masters of Data Science Program, Department of Statistics
 The University of British Columbia    
 Vancouver, BC    
 
-2019/05 - 2019/08
-**Part-time Flood Forecasting Consultant**
-BGC Engineering
-Vancouver, BC
+2019/05 - 2019/08    
+**Part-time Flood Forecasting Consultant**    
+BGC Engineering    
+Vancouver, BC    
 
 2009/05 - 2014/05    
 **Short-term statistical consulting** (6 projects)    
@@ -63,7 +63,7 @@ I also list a rating as to how comfortable I am to teach the lectures of the cou
 | STAT 547M | 5 | Exploratory Data Analysis, Part II | Instructor, 2 years |
 | DSCI 511  | 5 | Programming for Data Science | Lecture and Lab instructor, 2 years |
 | DSCI 531  | 4 | Data Visualization I | Lecture instructor, 2 years; lab instructor, 1 year |
-| DSCI 562  | 5 | Regression II | Lecture Instructor, 1 year; Lab Instructor, 2 years |
+| DSCI 562  | 5 | Regression II | Lecture Instructor, 1 year; Lab Instructor, 3 years |
 | DSCI 551  | 5 | Probability for Data Science | Lecture Instructor, 1 year |
 | DSCI 561  | 5 | Regression I | Lab Instructor, 1 year |
 | DSCI 571  | 4 | Supervised Learning I | Lab Instructor, 1 year |
@@ -104,6 +104,11 @@ I've been involved with the redevelopment of the following courses:
 - DSCI 531: The lectures one year, then the labs the following year.
 - DSCI 532: Here, I lead a team and supervised two TA's to redevelop the labs.
 - DSCI 574: The labs.
+
+I've been involved with the development of the following courses:
+
+- DSCI 591: I helped develop the capstone course with my colleagues.
+- BAIT 509: I used DSCI 571 as inspiration for developing this course.
 
 Some courses have been partially redeveloped.
 

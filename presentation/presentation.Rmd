@@ -1,11 +1,11 @@
 ---
 title: "presentation"
-output: html_document
+output: slidy_presentation
 ---
 
-## Teaching Strategy (<= 30 min)
+# Teaching Strategy (<= 30 min)
 
-Topic: sampling distribution of the sample mean
+## Topic: sampling distribution of the sample mean
 
 Here is a description of how I would teach the material.
 
@@ -132,4 +132,8 @@ __I believe statistics is not being replaced by machine learning__, because not 
 
 When students learn the logic behind setting up various statistical frameworks, they are able to generalize and build their own unique framework for solving a real problem. 
 
+Vision of the dsci streams at UBC:
 
+- MDS: training expert professionals in data science.
+- STAT 545: training academics to manage their analysis in a sane way using EDA. Not model-focussed.
+- Minor: be a proficient member of a data science team whose primary focus is more on the subject matter of the problem, yet is able to hold intelligent conversations with data scientists, make informed decisions as to how to tackle a problem at a high level, and perform a basic analysis on their own if they need to do something on their own. 

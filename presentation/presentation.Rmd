@@ -1,0 +1,44 @@
+---
+title: "presentation"
+output: html_document
+---
+
+## Teaching Strategy (<= 30 min)
+
+Topic: sampling distribution of the sample mean
+
+Here is a description of how I would teach the material.
+
+> Prerequisite knowledge. Clarify the prerequisite knowledge that you expect the students to know before they engage with the topic.
+
+- Generating data from a population distribution.
+- How to calculate the sample mean.
+- The concept of a sample mean vs. the true mean (we've so far put aside the question of "how good" the sample mean is when estimating the true mean).
+
+> Learning outcomes. Describe some learning outcomes you would want your students
+to be able to attain on the topic by the end of the course.
+
+From this lecture, students are expected to be able to:
+
+- Describe the difference between a sampling distribution and a population distribution.
+- Use a sampling distribution to construct confidence intervals.
+- Describe what happens to the sampling distribution of the mean as the sample size $n$ grows.
+- Estimate the sampling distribution from a univariate sample using asymptotics and bootstrapping.
+- Describe what happens to the shape of the sampling distribution of the mean as the sample size $n$ grows. 
+- Use the `rsample` R package to obtain bootstrap samples.
+
+**Hint**: Use these learning objectives when studying for your exam. 
+
+> Difficulties students might have learning the topic. What difficulties would you
+expect students to have when they engage with this topic?
+
+> Student engagement and learning. Describe how you would engage the students with
+the topic. How would you assist them in attaining your learning outcomes? Your
+discussion can involve activities both in and out of scheduled class time.
+
+> Technology. What, if any, learning technologies can assist in the learning of the
+topic?
+
+> Assessment. How would you assess students’ attainment of your learning outcomes
+for this topic? Describe examples of both formative and summative assessment you
+may use.

@@ -11,9 +11,10 @@ Here is a description of how I would teach the material.
 
 > Prerequisite knowledge. Clarify the prerequisite knowledge that you expect the students to know before they engage with the topic.
 
-- Generating data from a population distribution.
+- Sampling from a population (distribution).
 - How to calculate the sample mean.
-- The concept of a sample mean vs. the true mean (we've so far put aside the question of "how good" the sample mean is when estimating the true mean).
+- The concept of a sample mean vs. the true mean.
+- LLN. We've so far put aside the question of "how good" the sample mean is when estimating the true mean.
 
 > Learning outcomes. Describe some learning outcomes you would want your students
 to be able to attain on the topic by the end of the course.
@@ -21,24 +22,114 @@ to be able to attain on the topic by the end of the course.
 From this lecture, students are expected to be able to:
 
 - Describe the difference between a sampling distribution and a population distribution.
-- Use a sampling distribution to construct confidence intervals.
-- Describe what happens to the sampling distribution of the mean as the sample size $n$ grows.
-- Estimate the sampling distribution from a univariate sample using asymptotics and bootstrapping.
-- Describe what happens to the shape of the sampling distribution of the mean as the sample size $n$ grows. 
-- Use the `rsample` R package to obtain bootstrap samples.
+- Use a sampling distribution to describe how well the sample mean estimates the true mean.
+- ~~Use a sampling distribution to construct confidence intervals.~~
+- ~~Describe what happens to the sampling distribution of the mean as the sample size $n$ grows.~~
+- ~~Estimate the sampling distribution from a univariate sample using asymptotics and bootstrapping.~~
+- ~~Use the `rsample` R package to obtain bootstrap samples.~~
 
 **Hint**: Use these learning objectives when studying for your exam. 
 
 > Difficulties students might have learning the topic. What difficulties would you
 expect students to have when they engage with this topic?
 
+- Sample size vs. number of iterations
+
 > Student engagement and learning. Describe how you would engage the students with
 the topic. How would you assist them in attaining your learning outcomes? Your
 discussion can involve activities both in and out of scheduled class time.
 
+- __In pairs, use R to generate their own sample, and calculate the sample mean, to come up with a sampling distribution.__
+- Think-pair-share
+- Books: SLR, modern dive
+- Office hours
+- Lab and lab assignment
+
 > Technology. What, if any, learning technologies can assist in the learning of the
 topic?
 
-> Assessment. How would you assess students’ attainment of your learning outcomes
+- Some platform for everyone to submit their means.
+- R, for them to generate and calculate (build on skills from yesterday)
+
+> Assessment. How would you assess students' attainment of your learning outcomes
 for this topic? Describe examples of both formative and summative assessment you
 may use.
+
+- Think-pair-share as an informal way of probing.
+- Office hours
+- Quiz questions:
+	- ...
+- Lab assignment questions:
+	- ...
+
+## Teaching Practice (<= 30 min)
+
+Engagement choice: bolded one above.
+
+Remember:
+
+- Students learned how to generate a sample in R from last class.
+- Students learned how to compute the mean of a numeric vector in R from last class.
+- Students know how to conceptually build a histogram, and know how to read one, but not necessarily how to make one. I'll provide the code for that. 
+
+## Vision (<= 20 min)
+
+> How do the current changes in Data Science and/or Statistics education inform your
+vision of high-quality education and degree programs (minor and/or major) in these
+areas?
+
+- Less math and more computing.
+
+- Statistics as having changed by birthing data science as a new subject (combined with computer science). They are not the same thing, nor are they subsets.
+	- Tidy data as neither computer science nor statistics.
+	- Numerical optimization as computer science.
+	- Survival analysis as statistics.
+- Data science as a problem-first approach. Statistics as describing properties (recognize that no pithy definition can satisfy everyone).
+
+
+Problem -> method/assumption framework -> properties
+
+It's not that Statistics can't start with a problem. In fact, Applied Statistics begins with a problem, but then most of the focus is spent describing the properties of the framework of assumptions that are set up.
+
+How does this inform the way I teach? I focus on how to build a framework of assumptions that is most appropriate for the problem at hand. This means presenting a problem, generalizing it, and addressing the pros and cons of different approaches. 
+
+For example, instead of teaching survival analysis, I teach "regression when the response is censored". Or, instead of GLM's, "regression when the range of the response is restricted".
+
+Specifically, let's look at GLM's. The logical sequence for Statistics (importantly!) is:
+
+- Introduce real data (maybe), and an overall objective (maybe).
+- Start with the framework Y|X ~ F_Theta(x), g(E(Y|X)) = eta_x, for some F in an Exponential family, where Theta are its parameters, and g is a link function.
+- Put lots of focus on explaining things that stem from the framework: ways of fitting Theta, how to obtain predictions, how to evaluate model fit, etc.
+
+This is important! We need statisticians to describe the in's and out's of different frameworks so that we can use these frameworks. It can involve a lot of complicated mathematics and simulations. But it leaves the practitioner questioning why we "need" a link function, why we "need" these specific link functions, and why we "need" the distributional assumption.
+
+The assumptions are usually stated right away, treated as requirements, sometimes receiving attention as to how to assess their validity. But a data scientist needs to recognize that the word "assumption" is not appropriate, but rather "approximation", because assumptions are almost never true. And further to that, recognize the value of making this approximation over not making the approximation at all, as well as why we're making _this specific_ assumption over the infinitely many other things we could have considered. 
+
+The logical sequence for data science might look like: 
+
+- Introduce real data and an overall objective.
+- Describe why a simple approach _might_ fall short, and how sometimes this might not be a problem.
+- Open the space for thinking about alternative possibilities.
+- Indicate the decisive framework, and how to work with it.
+
+Example:
+
+- Example: binary response, want to learn the relationship between X and Y.
+- Problem with simple approach: Linear regression overflowing boundaries, though only sometimes.
+- Open the space for alternatives: Instead of looking for how a change in X _linearly_ increases the _probability_ of success in Y, what could we change to gain information on how X influences Y?
+- Indicate the framework, and how to work with it:
+	- Framework: g(p(x)) = beta0 + beta1 x
+	- New interpretation of beta1. 
+	- Look at what other link functions allow for interpretations of beta1.
+	- Indicate that LS does a poor job with estimation, so add a distributional assumption together with MLE to improve estimation (another topic on its own!)
+	- Teach how to fit this using code (R and/or python).
+
+__I believe this approach is novel__, as it requires understanding how a technique truly fits into the world -- and as they say, this requires being able to explain the technique to your grandmother. It requires diving into the tricky question of why we set up the framework the way it is, and not another way. The trouble is -- and this is where the educational leadership comes from -- many statistical techniques aren't designed to be described to your grandmother. For example, I haven't seen anyone treat link functions and the distributional assumption differently.
+
+__I believe this approach almost always requires very little math and technical skills__, and is therefore accessible to a wider audience than in the statistics-focussed sequence.
+
+__I believe statistics is not being replaced by machine learning__, because not everything is a prediction problem. 
+
+
+
+

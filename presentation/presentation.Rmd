@@ -78,7 +78,7 @@ Remember:
 vision of high-quality education and degree programs (minor and/or major) in these
 areas?
 
-- Less math and more computing.
+
 
 - Statistics as having changed by birthing data science as a new subject (combined with computer science). They are not the same thing, nor are they subsets.
 	- Tidy data as neither computer science nor statistics.
@@ -126,10 +126,10 @@ Example:
 
 __I believe this approach is novel__, as it requires understanding how a technique truly fits into the world -- and as they say, this requires being able to explain the technique to your grandmother. It requires diving into the tricky question of why we set up the framework the way it is, and not another way. The trouble is -- and this is where the educational leadership comes from -- many statistical techniques aren't designed to be described to your grandmother. For example, I haven't seen anyone treat link functions and the distributional assumption differently.
 
-__I believe this approach almost always requires very little math and technical skills__, and is therefore accessible to a wider audience than in the statistics-focussed sequence.
+__I believe this approach almost always requires very little math and technical skills__, and is therefore accessible to a wider audience than in the statistics-focussed sequence. Topics like quantile regression and extreme value modelling become undergraduate topics instead of advanced graduate topics. Also, because there's less of a deeper dive into details, it's possible to cover more ground in a smaller amount of time (as is evidenced by MDS).
 
 __I believe statistics is not being replaced by machine learning__, because not everything is a prediction problem. 
 
-
+When students learn the logic behind setting up various statistical frameworks, they are able to generalize and build their own unique framework for solving a real problem. 
 
 

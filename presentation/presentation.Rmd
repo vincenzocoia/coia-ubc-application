@@ -1,41 +1,43 @@
 ---
 title: "presentation"
-output: slidy_presentation
+output: ioslides_presentation
 ---
 
-# Teaching Strategy (<= 30 min)
+# Part I: Teaching Strategy (<= 30 min)
 
-## Topic: sampling distribution of the sample mean
+Some strategies for teaching the requested topic, __sampling distribution of the sample mean__.
 
-Here is a description of how I would teach the material.
+## Prerequisite Knowledge
 
-> Prerequisite knowledge. Clarify the prerequisite knowledge that you expect the students to know before they engage with the topic.
+> Clarify the prerequisite knowledge that you expect the students to know before they engage with the topic.
 
 - Sampling from a population (distribution).
 - How to calculate the sample mean.
 - The concept of a sample mean vs. the true mean.
 - LLN. We've so far put aside the question of "how good" the sample mean is when estimating the true mean.
 
-> Learning outcomes. Describe some learning outcomes you would want your students
+## Learning Outcomes
+
+> Describe some learning outcomes you would want your students
 to be able to attain on the topic by the end of the course.
 
 From this lecture, students are expected to be able to:
 
 - Describe the difference between a sampling distribution and a population distribution.
 - Use a sampling distribution to describe how well the sample mean estimates the true mean.
-- ~~Use a sampling distribution to construct confidence intervals.~~
-- ~~Describe what happens to the sampling distribution of the mean as the sample size $n$ grows.~~
-- ~~Estimate the sampling distribution from a univariate sample using asymptotics and bootstrapping.~~
-- ~~Use the `rsample` R package to obtain bootstrap samples.~~
 
 **Hint**: Use these learning objectives when studying for your exam. 
+
+## Difficulties
 
 > Difficulties students might have learning the topic. What difficulties would you
 expect students to have when they engage with this topic?
 
 - Sample size vs. number of iterations
 
-> Student engagement and learning. Describe how you would engage the students with
+## Student Engagement and Learning
+
+> Describe how you would engage the students with
 the topic. How would you assist them in attaining your learning outcomes? Your
 discussion can involve activities both in and out of scheduled class time.
 
@@ -45,11 +47,15 @@ discussion can involve activities both in and out of scheduled class time.
 - Office hours
 - Lab and lab assignment
 
+## Technology
+
 > Technology. What, if any, learning technologies can assist in the learning of the
 topic?
 
 - Some platform for everyone to submit their means.
 - R, for them to generate and calculate (build on skills from yesterday)
+
+## Assessment
 
 > Assessment. How would you assess students' attainment of your learning outcomes
 for this topic? Describe examples of both formative and summative assessment you
@@ -62,9 +68,11 @@ may use.
 - Lab assignment questions:
 	- ...
 
-## Teaching Practice (<= 30 min)
+# Part II: Teaching Practice (<= 30 min)
 
-Engagement choice: bolded one above.
+## Engagement and Prerequisites 
+
+The bolded one.
 
 Remember:
 
@@ -72,35 +80,48 @@ Remember:
 - Students learned how to compute the mean of a numeric vector in R from last class.
 - Students know how to conceptually build a histogram, and know how to read one, but not necessarily how to make one. I'll provide the code for that. 
 
-## Vision (<= 20 min)
+## Class
+
+...
+
+# Part III: Vision (<= 20 min)
+
+## The Question
+
+I'm asked to respond to the following:
 
 > How do the current changes in Data Science and/or Statistics education inform your
 vision of high-quality education and degree programs (minor and/or major) in these
 areas?
 
+## What "changes"?
 
+The major change is the birthing of a new subject, _Data Science_, which I believe is different from Statistics. In fact, it's not even a subset, and is combined with computer science. 
 
-- Statistics as having changed by birthing data science as a new subject (combined with computer science). They are not the same thing, nor are they subsets.
-	- Tidy data as neither computer science nor statistics.
-	- Numerical optimization as computer science.
-	- Survival analysis as statistics.
-- Data science as a problem-first approach. Statistics as describing properties (recognize that no pithy definition can satisfy everyone).
+- Statistics leans towards __describing__ a framework of assumptions, sometimes motivated from a real problem (Applied Statistics).
+- Data Science leans towards __building__ a framework of assumptions appropriate for addressing a real problem.
 
+Both are important.
 
-Problem -> method/assumption framework -> properties
+Problem -> Assumption Framework -> Properties
 
-It's not that Statistics can't start with a problem. In fact, Applied Statistics begins with a problem, but then most of the focus is spent describing the properties of the framework of assumptions that are set up.
+## Example: GLM for Statistics
 
-How does this inform the way I teach? I focus on how to build a framework of assumptions that is most appropriate for the problem at hand. This means presenting a problem, generalizing it, and addressing the pros and cons of different approaches. 
-
-For example, instead of teaching survival analysis, I teach "regression when the response is censored". Or, instead of GLM's, "regression when the range of the response is restricted".
-
-Specifically, let's look at GLM's. The logical sequence for Statistics (importantly!) is:
+The logical sequence for Statistics is:
 
 - Introduce real data (maybe), and an overall objective (maybe).
 - Start with the framework Y|X ~ F_Theta(x), g(E(Y|X)) = eta_x, for some F in an Exponential family, where Theta are its parameters, and g is a link function.
 - Put lots of focus on explaining things that stem from the framework: ways of fitting Theta, how to obtain predictions, how to evaluate model fit, etc.
 
+Important for ensuring GLM's are available as a tool.
+
+## Example: GLM for Data Science
+
+How does this inform the way I teach? I focus on how to build a framework of assumptions that is most appropriate for the problem at hand. This means presenting a problem, generalizing it, and addressing the pros and cons of different approaches. 
+
+For example, instead of teaching survival analysis, I teach "regression when the response is censored". Or, instead of GLM's, "regression when the range of the response is restricted".
+
+Specifically, let's look at GLM's. 
 This is important! We need statisticians to describe the in's and out's of different frameworks so that we can use these frameworks. It can involve a lot of complicated mathematics and simulations. But it leaves the practitioner questioning why we "need" a link function, why we "need" these specific link functions, and why we "need" the distributional assumption.
 
 The assumptions are usually stated right away, treated as requirements, sometimes receiving attention as to how to assess their validity. But a data scientist needs to recognize that the word "assumption" is not appropriate, but rather "approximation", because assumptions are almost never true. And further to that, recognize the value of making this approximation over not making the approximation at all, as well as why we're making _this specific_ assumption over the infinitely many other things we could have considered. 

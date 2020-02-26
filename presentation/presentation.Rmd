@@ -3,6 +3,13 @@ title: "presentation"
 output: ioslides_presentation
 ---
 
+```{r}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, fig.width = 3, fig.height = 2, 
+					  fig.align = "center", warning = FALSE)
+```
+
+
 # Part I: Teaching Strategy (<= 30 min)
 
 Some strategies for teaching the requested topic, __sampling distribution of the sample mean__.
@@ -34,6 +41,7 @@ From this lecture, students are expected to be able to:
 expect students to have when they engage with this topic?
 
 - Sample size vs. number of iterations
+- Sampling distribution vs. population distribution.
 
 ## Student Engagement and Learning
 
@@ -64,7 +72,26 @@ may use.
 - Think-pair-share as an informal way of probing.
 - Office hours
 - Quiz questions:
-	- ...
+	1. Consider the two distributions below. One of them is a population distribution, and the other is a sampling distribution of a mean of an iid sample. Which one is the sampling distribution?
+	2. Why is it impossible for the sampling distribution of the mean (of an iid sample) to have a larger variance than the population distribution? Answer using no more than two **brief** sentences.
+
+Answers:
+	
+1. B
+2. Could say:
+	- Because the variance of a mean is $\sigma^2 / n$, which cannot be larger than the population variance $\sigma^2$
+
+
+```{r}
+ggplot(tibble(x = -3:3), aes(x)) +
+	stat_function(fun = dnorm, aes(linetype = "A")) +
+	stat_function(fun = dnorm, args = list(sd = 1 / sqrt(10)), aes(linetype = "B")) +
+	labs(y = "Density") +
+	theme_bw() +
+	scale_linetype_discrete("")
+```
+
+
 - Lab assignment questions:
 	- ...
 
@@ -82,7 +109,115 @@ Remember:
 
 ## Class
 
-...
+### Orientation
+
+#### Review:
+
+- So far, we've learned about *population distributions*, and how they can be used to explain the uncertainty of an unknown outcome. Here are the population distributions of three examples we've been working with:
+
+```{r}
+library(tidyverse)
+dir("supplementary", full.names = TRUE) %>% 
+	walk(source)
+cowplot::plot_grid(
+  tibble(x = expense$qdist(c(0, 0.99))) %>%
+    ggplot(aes(x)) +
+    stat_function(fun = expense$ddist) +
+    theme_bw() +
+    # ylab("Density") +
+    scale_x_continuous("Monthly Expense", labels = scales::dollar_format()) +
+  	scale_y_continuous("Density"),
+  tibble(x = c(-0.5, 1.5)) %>% 
+    ggplot(aes(x)) +
+    stat_function(fun = octane$ddist) +
+    theme_bw() +
+    labs(x = "Octane Purity",
+         y = "Density"),
+  ggplot(los$pmf, aes(ndays, p)) + 
+  	geom_col() +
+  	ylab("Probability") +
+  	xlab("Length of Stay") +
+  	theme_bw(),
+  nrow = 1
+)
+```
+- We saw that there are two "versions" of the mean:
+	- The __empirical mean__ is calculated using data, and is an average: $1/n \sum_i X_i$
+	- The __true mean__ is what the empirical mean converges to as we collect more and more data. It can be calculated from a population distribution's density as $\int_x x f(x) dx.$
+	- Hence, the empirical mean is an _estimate_ of the true mean.
+
+#### Today's topic
+
+If the empirical mean is an _estimate_ of the true mean, how can we communicate __how good__ of an estimate it is? The answer is, through a type of distribution called a __sampling distribution__. 
+
+
+
+#### Concept 1
+
+**A combination of random variables is also a random variable.**
+
+For example, if $X$, $Y$, and $Z$ are random variables, then...
+
+- $X^Y$ is also a random variable.
+- $\exp(X) + Z\sin(Y)$ is also a random variable.
+- ...
+
+Remember, even though these quantities are made up of many random variables, they still calculate to a single number -- hence why they amount to a new single random variable.
+
+#### Concept 2
+
+**The distribution of an empirical mean is called a _sampling distribution_**.
+
+For example, consider the mean of 10 observations of **Length of Stay** (say, the first 10 days of March). If we call those observations $X_1, X_2, \ldots, X_10$, then their mean
+$$\bar{X} = \frac{X_1 + X_2 + \cdots + X_{10}}{10}$$ 
+is a random variable (because each of $X_1, X_2, \ldots, X_10$ are), and this random variable's distribution is called a _sampling distribution_. 
+
+#### Demonstration
+
+Let's use simulation to view the sampling distribution of 10 **Length of Stay** observations.
+
+Steps:
+
+1. Everyone generate their own 10 observations from the **Length of Stay** distribution, and calculate the mean.
+	- To start you off, here is code to generate 10 observations:
+
+```
+sample(1:5, size = 10, replace = TRUE, prob = c(0.25, 0.35, 0.2, 0.1, 0.1))
+```
+
+2. Submit your mean to the above google form.
+
+
+#### Other Examples
+
+Here are the sampling distributions of the mean of 10 observations for the three examples we're considering. They are obtained by obtaining 1000 means each.
+
+```{r}
+# N = number of iterations, n = sample size, rdist = function that
+# generates a sample.
+set.seed(1)
+get_means <- function(N, n, rdist) {
+	map_dbl(1:N, function(x) mean(rdist(n)))
+}
+tribble(
+	~ example, ~ rdist,
+	"Expense", expense$rdist,
+	"Octane", octane$rdist,
+	"Length of Stay", los$rdist
+) %>% 
+	transmute(example = as_factor(example),
+			  means = map(rdist, ~ get_means(1000, n = 10, rdist = .x))) %>% 
+	unnest(means) %>% 
+	ggplot(aes(means)) +
+	facet_wrap(~ example, scales = "free") +
+	geom_histogram(aes(y = ..density..), bins = 25) +
+	labs(x = "Empirical Mean",
+		 y = "Density") +
+	theme_bw()
+```
+
+
+
 
 # Part III: Vision (<= 20 min)
 

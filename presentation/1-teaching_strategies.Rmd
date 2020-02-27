@@ -1,0 +1,143 @@
+---
+title: "Part I: Teaching Strategy"
+date: "February 27, 2020"
+author: "Vincenzo Coia"
+output: ioslides_presentation
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE, fig.width = 3, fig.height = 2, 
+					  fig.align = "center", warning = FALSE)
+```
+
+## Purpose
+
+Outline strategies for teaching the requested topic, __sampling distribution of the sample mean__.
+
+Time: $\leq$ 30 min
+
+## Prerequisite Knowledge
+
+Prerequisite knowledge that students would be expected to know:
+
+- Sampling from a population (distribution) in R.
+- Multi-step simulations.
+- How to interpret and calculate mean and quantiles, both empirical and true.
+- Conceptually build and read a histogram, but not necessarily know how to make one.
+- The concept of a sample/empirical mean vs. the true mean, and the LLN.
+	- We've so far put aside the question of "how good" the sample mean is when estimating the true mean.
+
+## Learning Outcomes
+
+Some learning outcomes might be:
+
+- Define a sampling distribution, particularly pointing out the difference between a population distribution.
+- Generate a sample from a sampling distribution of the mean, given a population distribution.
+- Construct confidence intervals from a given sampling distribution of the mean to describe how well the empirical mean estimates the true mean.
+
+## Difficulties
+
+Some difficulties students might have learning the topic:
+
+- In simulation: sample size vs. number of iterations.
+- Identifying a transformation of random variables as having a distribution.
+- Differentiating between sampling distribution and population distribution.
+- Interpreting confidence intervals.
+
+# Student Engagement and Learning
+
+How you would engage the students with the topic? How would you assist them in attaining your learning outcomes?
+
+## Live coding
+
+Students have a worksheet during class. Example:
+
+- Simulate from the sampling distribution of the mean of 5 draws from an Exp(1) distribution, using 1000 iterations.
+
+```
+map(1:FILL_THIS_IN, rexp, n = FILL_THIS_IN, rate = 1) %>% 
+	map_dbl(FILL_THIS_IN)
+```
+
+
+## Simulation
+
+The topic of sampling distributions lends itself particularly well to simulation. I might ask:
+
+1. Use R to generate a sample from the population distribution, and calculate the sample mean.
+2. Submit your sample mean to a Google Form.
+
+## In-class exercises
+
+I'll ask students to try an activity on their own, usually for about a minute, and then regroup.
+
+Example:
+
+1. Suppose N(5,5) is a sampling distribution for a mean of 10 observations. What is a 95% confidence interval for the mean?
+2. Suppose N(5,5) is a population distribution for a mean of 10 observations. What is a 95% confidence interval for the mean?
+
+## Think-Pair-Share
+
+True or false:
+
+1. If E(_X_) = _m_, then the sampling distribution is the distribution of _m_. 
+
+2. It's impossible for the sampling distribution of the mean to have larger variance than the population distribution.
+
+3. The sampling distribution of the mean of 10 observations is the same as the sampling distribution of the mean of 20 observations.
+
+# Technology
+
+What learning technologies can assist in the learning of the topic?
+
+-----
+
+- Slack: 
+	- Discussion boards amongst students and teaching team.
+	- Quick polls in-class
+- Google forms: allows students to submit information.
+- R + RStudio, or python + JupyterLab for in-class worksheets.
+- Bookdown for lecture notes
+- Github for hosting course content and making announcements.
+
+# Assessment
+
+How would you assess students' attainment of your learning outcomes
+for this topic? 
+
+## Formative
+
+Formative assessments include:
+
+- Think-pair-share
+- Checking in with each student during lab
+- Office hours (especially open lecture-style)
+
+## Summative: Quizzes
+
+Here are a couple examples of quiz questions.
+
+1. Consider the two distributions below. One of them is a population distribution, and the other is a sampling distribution of a mean of an iid sample. Which one is the sampling distribution?
+
+```{r, fig.width = 4, fig.height = 1.5}
+ggplot(tibble(x = -3:3), aes(x)) +
+	stat_function(fun = dnorm, aes(linetype = "A")) +
+	stat_function(fun = dnorm, args = list(sd = 1 / sqrt(10)), aes(linetype = "B")) +
+	labs(y = "Density") +
+	theme_bw() +
+	scale_linetype_discrete("")
+```
+
+2. Why is it impossible for the sampling distribution of the mean (of an iid sample) to have a larger variance than the population distribution? Answer using no more than two **brief** sentences.
+
+## Summative: Lab Assignments
+
+An example question might be:
+
+Consider the `octane.csv` data set, containing 25 purity measurements.
+
+1. Plot the sampling distribution of the mean using both bootstrap and asymptotics.
+2. Obtain 95% confidence intervals using both bootstrap and asymptotic distribution.
+
+

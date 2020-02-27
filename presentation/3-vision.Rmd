@@ -1,0 +1,102 @@
+---
+title: "Part III: Vision"
+date: "February 27, 2020"
+author: "Vincenzo Coia"
+output: ioslides_presentation
+---
+
+## Purpose
+
+I'm asked:
+
+> How do the current changes in Data Science and/or Statistics education inform your vision of high-quality education and degree programs (minor and/or major) in these areas?
+
+Time: $\leq$ 20 min
+
+## What "changes"?
+
+- Advancements in technology => we can solve problems in more ways.
+- We can visualize the problem solving workflow as:
+	
+Problem -> Method -> Obtain insights
+
+- Roughly, Data Science lives in the first arrow. Statistics lives in the second arrow.
+	- Statistics leans towards __describing__ a framework of assumptions, sometimes motivated from a real problem (Applied Statistics).
+	- Data Science leans towards __building__ a framework of assumptions appropriate for addressing a real problem.
+
+Both are important.
+
+## Example: GLM for Statistics
+
+The logical sequence for Statistics might look like:
+
+1. Introduce real data (maybe), and an overall objective (maybe).
+2. Start with the framework:
+
+$$g(E(Y|X)) = X^{\top}\beta,$$
+the distribution of $Y|X$ belonging to some exponential family, etc...  
+
+3\. Focus on explaining things that stem from the framework: estimation, how to obtain predictions, how to evaluate model fit, etc.
+
+-----
+
+Important for: 
+
+- In teaching, building skills in describing a statistical method.
+- As a discipline, ensures GLM's are available as a tool.
+
+But it leaves the practitioner with questions: 
+
+- Why do we "need" a link function?
+- Why do we "need" these specific link functions?
+- Why do we "need" the distributional assumption? Where did it even come from?
+
+## Example: GLM for Data Science
+
+The logical sequence for Data Science might look like: 
+
+1. Introduce real data and an overall objective.
+2. Evaluate assumptions for building a model framework (I like to call these _approximations_).
+	- Perhaps a machine learning model is more appropriate.
+	- Perhaps a linear link is appropriate, even with positive response.
+3. Obtain insight from the fitted model.
+
+Important for building problem-solving skills.
+
+## How this informs my teaching
+
+- Lean towards scenario-by-scenario approach instead of topic-by-topic. Example:
+	- Regression when the range of the response is restricted (instead of GLM's)
+	- Regression when the response is censored (instead of Survival Analysis)
+- Focus on the "why" and "why not" of assumptions/approximations.
+	- Why use an interpretable link function? Why make a distributional assumption?
+	- Why not ignore censoring?
+
+## Why this is novel
+
+- Materials with a problem-first focus are not rich.
+- Non-binary views and evaluations of assumptions are hard to find.
+- A real-world "why" (as opposed to a mathematical "why") is not often asked.
+- Brings to light the importance of statistical topics that traditionally do not receive much attention (EVT, distributional forecasting, etc.)
+	- A problem-first approach makes even advanced statistical topics like EVT approachable.
+
+## Educational leadership opportunities
+
+- Making books and detailed course notes public (inspired by Jenny Bryan with STAT 545).
+	- Example: [Interpreting Regression](https://interpreting-regression.netlify.com/) or the [DSCI 551 notes](https://ubc-mds.github.io/DSCI_551_stat-prob-dsci/lectures/)
+- Making R packages to assist with underutilized statistical topics.
+	- Example: [`distplyr`](https://github.com/vincenzocoia/distplyr).
+- Hosting workshops/conferences on data science education.
+	- Example: BIRS conference
+
+## Degree Programs
+
+Here's my vision for the three data science "streams" at UBC:
+
+- MDS: training expert professionals in data science.
+- STAT 545: training academics to manage their analysis in a sane way using EDA. Not model-focussed.
+- Minor: Be a proficient member of a data science team, yet not be primarily responsible for the data science role. Should be able to:
+	- hold intelligent conversations with data scientists, 
+	- make informed decisions as to how to tackle a problem at a high level, and 
+	- perform a basic analysis on their own if they need to do something on their own. 
+

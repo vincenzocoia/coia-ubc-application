@@ -56,7 +56,7 @@ Students have a worksheet during class. Example:
 - Simulate from the sampling distribution of the mean of 5 draws from an Exp(1) distribution, using 1000 iterations.
 
 ```
-map(1:FILL_THIS_IN, ~ FILL_THIS_IN(rexp(FILL_THIS_IN, rate = 1)))
+map_dbl(1:FILL_THIS_IN, ~ FILL_THIS_IN(rexp(FILL_THIS_IN, rate = 1)))
 ```
 
 
